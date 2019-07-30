@@ -3,93 +3,93 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[vET-paperFig-TS-Copy1.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-paperFig-TS-Copy1.ipynb)  
+* ##[vET-paperFig-TS-Copy1.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-paperFig-TS-Copy1.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[vET-DFO-SusanReq-TS.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-DFO-SusanReq-TS.ipynb)  
+* ##[vET-DFO-SusanReq-TS.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-DFO-SusanReq-TS.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[vET-PSF-paperFig-TS.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-TS.ipynb)  
+* ##[vET-PSF-paperFig-TS.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-TS.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[vET-DFO-paperFig-TS.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-TS.ipynb)  
+* ##[vET-DFO-paperFig-TS.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-TS.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[vET-paperFig-TS.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-paperFig-TS.ipynb)  
+* ##[vET-paperFig-TS.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-paperFig-TS.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[vET-PSF-RiverSiUpdate.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-PSF-RiverSiUpdate.ipynb)  
+* ##[vET-PSF-RiverSiUpdate.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-PSF-RiverSiUpdate.ipynb)  
     
     **PSF Nutrient Comparison**  
 
-* ##[plotArianeResults.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/plotArianeResults.ipynb)  
+* ##[plotArianeResults.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/plotArianeResults.ipynb)  
     
-* ##[vET-DFO-paperFig.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-DFO-paperFig.ipynb)  
-    
-    **DFO Nutrient Comparison**  
-
-* ##[vET-PSF-paperFig-TS-dev.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-TS-dev.ipynb)  
+* ##[vET-DFO-paperFig.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-DFO-paperFig.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[tryEst_Si_N.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/tryEst_Si_N.ipynb)  
+* ##[vET-PSF-paperFig-TS-dev.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-TS-dev.ipynb)  
     
-* ##[makeArianeFile.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/makeArianeFile.ipynb)  
+    **DFO Nutrient Comparison**  
+
+* ##[tryEst_Si_N.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/tryEst_Si_N.ipynb)  
     
-* ##[vET-PSF-paperFig-Poster.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-Poster.ipynb)  
+* ##[makeArianeFile.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/makeArianeFile.ipynb)  
+    
+* ##[vET-PSF-paperFig-Poster.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-Poster.ipynb)  
     
     **PSF Nutrient Comparison**  
 
-* ##[plotArianeResults-OceanPredictFig.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/plotArianeResults-OceanPredictFig.ipynb)  
+* ##[plotArianeResults-OceanPredictFig.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/plotArianeResults-OceanPredictFig.ipynb)  
     
-* ##[vET-DFO-paperFig-Poster.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-Poster.ipynb)  
-    
-    **DFO Nutrient Comparison**  
-
-* ##[testvvlZMatch.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/testvvlZMatch.ipynb)  
+* ##[vET-DFO-paperFig-Poster.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-Poster.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[SentryShoalComparisons.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/SentryShoalComparisons.ipynb)  
-    
-* ##[vET-DFO-paperFig-IUGG.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-IUGG.ipynb)  
+* ##[testvvlZMatch.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/testvvlZMatch.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[tsSeasonalCycle.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/tsSeasonalCycle.ipynb)  
+* ##[SentryShoalComparisons.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/SentryShoalComparisons.ipynb)  
     
-* ##[vET-Hakai-paperFig-TS.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-Hakai-paperFig-TS.ipynb)  
+* ##[vET-DFO-paperFig-IUGG.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-IUGG.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[vET-statsTable.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-statsTable.ipynb)  
+* ##[tsSeasonalCycle.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/tsSeasonalCycle.ipynb)  
+    
+* ##[vET-Hakai-paperFig-TS.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-Hakai-paperFig-TS.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
+* ##[vET-statsTable.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-statsTable.ipynb)  
     
     **make Stats Table and print to csv or LaTeX file**  
 
-* ##[vET-Hakai-paperFig.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-Hakai-paperFig.ipynb)  
+* ##[vET-Hakai-paperFig.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-Hakai-paperFig.ipynb)  
     
     **Hakai Nutrient Comparison**  
 
-* ##[Tdep.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/Tdep.ipynb)  
+* ##[Tdep.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/Tdep.ipynb)  
     
-* ##[vET-PSF-paperFig.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-PSF-paperFig.ipynb)  
+* ##[vET-PSF-paperFig.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-PSF-paperFig.ipynb)  
     
     **PSF Nutrient Comparison**  
 
-* ##[vET-DFO-checkPlatform.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-DFO-checkPlatform.ipynb)  
+* ##[vET-DFO-checkPlatform.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-DFO-checkPlatform.ipynb)  
     
     **DFO get sampling platform summary**  
 
-* ##[dataDistrib.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/dataDistrib.ipynb)  
+* ##[dataDistrib.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/dataDistrib.ipynb)  
     
     **make Stats Table and print to csv or LaTeX file**  
 
-* ##[vET-Hakai-paperFig-TS-dev.ipynb](/data/eolson/results/MEOPAR/analysis-elise-2/notebooks/bioTuning/evalFigs/vET-Hakai-paperFig-TS-dev.ipynb)  
+* ##[vET-Hakai-paperFig-TS-dev.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-Hakai-paperFig-TS-dev.ipynb)  
     
     **DFO Nutrient Comparison**  
 
