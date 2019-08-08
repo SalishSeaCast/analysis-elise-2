@@ -83,3 +83,6 @@ NewLOGnSiT /data/eolson/MEOPAR/SS36runs/CedarRuns/NewLOGnSiT/
 HC201905spinup2013   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905spinup2013P   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 t15r13Base  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r13Base/
+t15r13A  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r13A/
+t15r13B  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r13B/
+t15r13C  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r13C/
