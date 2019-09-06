@@ -94,3 +94,4 @@ HC201905spinup2015   /data/eolson/results/MEOPAR/SS36runs/HCTests/spinup.201905.
 HC201905spinup2014   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905spinup2015_3   /data/eolson/results/MEOPAR/SS36runs/HCTests/spinup.201905.3/
 HC201905spinup2015_4   /data/eolson/results/MEOPAR/SS36runs/HCTests/spinup.201905.4/
+HC201905spinup2015_5   /data/eolson/results/MEOPAR/SS36runs/HCTests/spinup.201905.5/

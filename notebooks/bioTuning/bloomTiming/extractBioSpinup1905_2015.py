@@ -19,8 +19,8 @@ plist=['Sentry Shoal','S3','Central node','Central SJDF']
 varNameDict={'Egmont':'Egmont','Halibut Bank':'HalibutBank','Sentry Shoal':'SentryShoal', 'S3':'S3', 'Central node':'CentralNode', 'Central SJDF':'CentralSJDF','all':'All'}
 t0=dt.datetime(2015,1,1)
 fdur=1 # length of each results file in days
-dirname='HC201905spinup2015_4'
-te=dt.datetime(2015,4,15)
+dirname='HC201905spinup2015_5'
+te=dt.datetime(2015,12,1)
 
 evars=('diatoms','ciliates','flagellates','nitrate','ammonium','silicon')
 
