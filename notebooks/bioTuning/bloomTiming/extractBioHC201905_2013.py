@@ -12,10 +12,10 @@ saveloc='/data/eolson/MEOPAR/SS36runs/calcFiles/comparePhytoN/'
 plist=['Sentry Shoal','S3','Central node','Central SJDF','Egmont','Halibut Bank']
 varNameDict={'Egmont':'Egmont','Halibut Bank':'HalibutBank','Sentry Shoal':'SentryShoal', 'S3':'S3', 'Central node':'CentralNode', 'Central SJDF':'CentralSJDF','all':'All'}
 t0=dt.datetime(2013,1,1)
-te=dt.datetime(2013,8,31)
+te=dt.datetime(2013,8,5)
 fdur=1 # length of each results file in days
-dirname='HC201905newSpin2013Y2'
-spath='/results/SalishSea/spinup.201905/'
+dirname='HC201905_2013'
+spath='/results/SalishSea/hindcast.201905/'
 maxlen=20 # max of open files
 
 def setup():
