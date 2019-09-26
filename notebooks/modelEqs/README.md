@@ -5,6 +5,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[mesozooplankton-newtest.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/modelEqs/mesozooplankton-newtest.ipynb)  
     
+* ##[modelEqns-Copy1.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/modelEqs/modelEqns-Copy1.ipynb)  
+    
 * ##[modelEqns-SiRemin.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/modelEqs/modelEqns-SiRemin.ipynb)  
     
 * ##[microzo.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/modelEqs/microzo.ipynb)  
