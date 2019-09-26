@@ -7,9 +7,13 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[checkSiBalance_various-Copy2.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_various-Copy2.ipynb)  
     
+* ##[checkSiNBalance_spinup201905_newSpin.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_newSpin.ipynb)  
+    
 * ##[checkSiNBalance_newhindcast.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiNBalance_newhindcast.ipynb)  
     
 * ##[checkSiBalance_depths-eff0.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_depths-eff0.ipynb)  
+    
+* ##[checkSiNBalance_spinup201905yr1.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905yr1.ipynb)  
     
 * ##[checkSiBalance_hindcastv2.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_hindcastv2.ipynb)  
     
@@ -18,6 +22,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[checkSiBalance_depths-Z4.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_depths-Z4.ipynb)  
     
 * ##[checkSiBalance_depths-NoMZME.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_depths-NoMZME.ipynb)  
+    
+* ##[checkSiNBalance_spinup201905_newSpinY2.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_newSpinY2.ipynb)  
     
 * ##[checkSiNBalance_HC201812.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiNBalance_HC201812.ipynb)  
     
@@ -28,6 +34,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[checkSiBalance_hindcast0-nowcast-testRuns.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_hindcast0-nowcast-testRuns.ipynb)  
     
 * ##[PairedRunsSiParams.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/PairedRunsSiParams.ipynb)  
+    
+* ##[checkSiNBalance_spinup201905-test.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905-test.ipynb)  
     
 * ##[checkSiBalance_depths-spatial-hindcast.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_depths-spatial-hindcast.ipynb)  
     
@@ -40,6 +48,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[NTransports.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/NTransports.ipynb)  
     
 * ##[checkSiBalance_depths-Z3.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_depths-Z3.ipynb)  
+    
+* ##[checkSiNBalance_spinup201905.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905.ipynb)  
+    
+* ##[checkSiNBalance_spinup201905_5.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_5.ipynb)  
     
 
 ##License

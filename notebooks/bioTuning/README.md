@@ -25,6 +25,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Si Plots**  
 
+* ##[DFO-vET-Si.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-Si.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[deepSiFigs-DWR-mod.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/deepSiFigs-DWR-mod.ipynb)  
     
     **DFO Si Plots**  
@@ -101,6 +105,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**  
 
+* ##[DFO-vET-HC201905_newSpinY2.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-HC201905_newSpinY2.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[DFO-10dayFiles-spring2015_T6-Long-seasons.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-10dayFiles-spring2015_T6-Long-seasons.ipynb)  
     
     **DFO Nutrient Comparison**  
@@ -129,6 +137,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**  
 
+* ##[DFO-vET-2015_HC201905spintest2015.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2015_HC201905spintest2015.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[checkMortalitySourceRates-hindcast.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/checkMortalitySourceRates-hindcast.ipynb)  
     
 * ##[DFO-vET-2017_spring_PAR_13bfastSiHR-719.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2017_spring_PAR_13bfastSiHR-719.ipynb)  
@@ -137,13 +149,13 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[HakaiComparisons-LoadData.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/HakaiComparisons-LoadData.ipynb)  
     
-* ##[DFO-vET-spring2015_Z3-Copy1.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-spring2015_Z3-Copy1.ipynb)  
-    
-    **DFO Nutrient Comparison**  
-
 * ##[PARRunsComp.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/PARRunsComp.ipynb)  
     
 * ##[DFO-vET-2017_CentralSOG_NewLOSOGT.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2017_CentralSOG_NewLOSOGT.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
+* ##[PSF-vET-HC201905spinup.5.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/PSF-vET-HC201905spinup.5.ipynb)  
     
     **DFO Nutrient Comparison**  
 
@@ -177,9 +189,17 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Si Plots**  
 
+* ##[DFO-vET-2015_t15r15DiatAlpha0-0520-ExcludeSaanich.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2015_t15r15DiatAlpha0-0520-ExcludeSaanich.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[vET-dev-loadPSF.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/vET-dev-loadPSF.ipynb)  
     
     **PSF Nutrient Comparison**  
+
+* ##[compare_LinbfSiDiatRefl0_2_HC1905spinup4.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/compare_LinbfSiDiatRefl0_2_HC1905spinup4.ipynb)  
+    
+    **DFO Nutrient Comparison**  
 
 * ##[DFO-vET-2017_HC201812.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2017_HC201812.ipynb)  
     
@@ -203,6 +223,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**  
 
+* ##[DFO-vET-2015_HC201905.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2015_HC201905.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[DFO-vET-HC201905spinup.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-HC201905spinup.ipynb)  
     
     **DFO Nutrient Comparison**  
@@ -213,6 +237,10 @@ Descriptions under the links below are from the first cell of the notebooks
     Nutrient comparisons with edited dataset using surface instead of 2m for depth. (  
 
 * ##[DFO-vET-2015_HC201812.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2015_HC201812.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
+* ##[DFO-vET-2015_ISink-0530-ExcludeSaanich.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2015_ISink-0530-ExcludeSaanich.ipynb)  
     
     **DFO Nutrient Comparison**  
 
@@ -247,6 +275,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Si Plots**  
 
+* ##[DFO-vET-HC201905_newSpin.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-HC201905_newSpin.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[PSF-vET-2017_PAR_1_3.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/PSF-vET-2017_PAR_1_3.ipynb)  
     
     **DFO Nutrient Comparison**  
@@ -259,9 +291,17 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**  
 
+* ##[DFO-vET-HC201905spinup.5-20150525.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-HC201905spinup.5-20150525.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[deepSiFigs-DWR.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/deepSiFigs-DWR.ipynb)  
     
     **DFO Si Plots**  
+
+* ##[DFO-vET-HC201905spinup.4.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-HC201905spinup.4.ipynb)  
+    
+    **DFO Nutrient Comparison**  
 
 * ##[obsSiN.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/obsSiN.ipynb)  
     
@@ -271,11 +311,19 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**  
 
+* ##[DFO-vET-2015_LinbfSiDiatRefl0_2-0530-ExcludeSaanich.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2015_LinbfSiDiatRefl0_2-0530-ExcludeSaanich.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[highN03-boundary.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/highN03-boundary.ipynb)  
     
     **DFO Nutrient Comparison**  
 
 * ##[DFO-vET-2017_spring_PAR_1_3_JanJul.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2017_spring_PAR_1_3_JanJul.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
+* ##[DFO-vET-2015_t15r15LinbfSi-0530-ExcludeSaanich.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2015_t15r15LinbfSi-0530-ExcludeSaanich.ipynb)  
     
     **DFO Nutrient Comparison**  
 
@@ -300,7 +348,19 @@ Descriptions under the links below are from the first cell of the notebooks
     **DFO Nutrient Comparison**  
     **spring2015_KhT: Temperature Dep Experiment**  
 
+* ##[DFO-vET-HC201905_2013.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-HC201905_2013.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
+* ##[DFO-vET-HC201905spinup.3.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-HC201905spinup.3.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[DFO-vET-HC201812.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-HC201812.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
+* ##[compare_SMELT_SSC.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/compare_SMELT_SSC.ipynb)  
     
     **DFO Nutrient Comparison**  
 
@@ -317,20 +377,6 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[DFO-vET-spring2015_nowcastgreen.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-spring2015_nowcastgreen.ipynb)  
     
     **DFO Nutrient Comparison**  
-
-* ##[CSNuts-10dayFiles-spring2015_AugBase-Long.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/CSNuts-10dayFiles-spring2015_AugBase-Long.ipynb)  
-    
-    **Citizen Science Nutrient Comparison**  
-    Nutrient comparisons with edited dataset using surface instead of 2m for depth. (  
-
-* ##[DFO-vET-HC201905spinup-Copy1.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-HC201905spinup-Copy1.ipynb)  
-    
-    **DFO Nutrient Comparison**  
-
-* ##[CSNuts-10dayFiles-spring2015_M5-Long.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/CSNuts-10dayFiles-spring2015_M5-Long.ipynb)  
-    
-    **Citizen Science Nutrient Comparison**  
-    Nutrient comparisons with edited dataset using surface instead of 2m for depth. (  
 
 * ##[DFO-vET-2017_CentralSOG_NewLOSOGTbfSi.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2017_CentralSOG_NewLOSOGTbfSi.ipynb)  
     
