@@ -81,6 +81,9 @@ PAR_1_3_b /data/eolson/MEOPAR/SS36runs/CedarRuns/PAR_1_3_b/
 NewLONoSiT /data/eolson/MEOPAR/SS36runs/CedarRuns/NewLONoSiT/
 NewLOGnSiT /data/eolson/MEOPAR/SS36runs/CedarRuns/NewLOGnSiT/
 HC201905spinup2013   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905newSpin2013   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905_2013   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905newSpin2013Y2   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905spinup2013P   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 t15r13Base  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r13Base/
 t15r13A  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r13A/
@@ -89,6 +92,7 @@ t15r13C  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r13C/
 t15r13D  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r13D/
 t15r15DiatAlpha0  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r15DiatAlpha0/
 t15r15LinbfSi  /data/eolson/MEOPAR/SS36runs/CedarRuns/t15r15LinbfSi/
+ISink /data/eolson/MEOPAR/SS36runs/CedarRuns/ISink/
 LinbfSiDiatRefl0_2  /data/eolson/MEOPAR/SS36runs/CedarRuns/LinbfSiDiatRefl0_2/
 HC201905spinup2015   /data/eolson/results/MEOPAR/SS36runs/HCTests/spinup.201905.2ndtime/
 HC201905spinup2014   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
