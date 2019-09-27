@@ -11,6 +11,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**  
 
+* ##[vET-DFO-SusanReq-TS-2007.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-DFO-SusanReq-TS-2007.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[vET-PSF-RiverSiUpdate.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/evalFigs/vET-PSF-RiverSiUpdate.ipynb)  
     
     **PSF Nutrient Comparison**  
