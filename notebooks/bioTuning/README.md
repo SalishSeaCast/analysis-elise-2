@@ -133,6 +133,10 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[DFO-nowcast-Long.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-nowcast-Long.ipynb)  
     
+* ##[DFO-vET-lh201905-2007.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-lh201905-2007.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[DFO-vET-spring2015_Z3-partial.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-spring2015_Z3-partial.ipynb)  
     
     **DFO Nutrient Comparison**  
@@ -151,6 +155,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[PARRunsComp.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/PARRunsComp.ipynb)  
     
+* ##[vET-DFO-paperFig-TS-lh201905-2007.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/vET-DFO-paperFig-TS-lh201905-2007.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * ##[DFO-vET-2017_CentralSOG_NewLOSOGT.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2017_CentralSOG_NewLOSOGT.ipynb)  
     
     **DFO Nutrient Comparison**  
@@ -235,10 +243,6 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **Citizen Science Nutrient Comparison**  
     Nutrient comparisons with edited dataset using surface instead of 2m for depth. (  
-
-* ##[DFO-vET-2015_HC201812.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2015_HC201812.ipynb)  
-    
-    **DFO Nutrient Comparison**  
 
 * ##[DFO-vET-2015_ISink-0530-ExcludeSaanich.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/DFO-vET-2015_ISink-0530-ExcludeSaanich.ipynb)  
     
