@@ -31,6 +31,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[checkSiBalance_hindcast0-nowcast-testRuns-Copy1.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_hindcast0-nowcast-testRuns-Copy1.ipynb)  
     
+* ##[checkSiNBalance_HC1905.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiNBalance_HC1905.ipynb)  
+    
 * ##[checkSiBalance_hindcast0-nowcast-testRuns.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/checkSiBalance_hindcast0-nowcast-testRuns.ipynb)  
     
 * ##[PairedRunsSiParams.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/nutBalance/PairedRunsSiParams.ipynb)  
