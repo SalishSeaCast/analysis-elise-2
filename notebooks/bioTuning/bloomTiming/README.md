@@ -109,6 +109,14 @@ Descriptions under the links below are from the first cell of the notebooks
         - Central Node  
         - JDF  
 
+* ##[comparePhytoN-TS-SurfaceWithFerryChl-2017-1905.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/bloomTiming/comparePhytoN-TS-SurfaceWithFerryChl-2017-1905.ipynb)  
+    
+    **inter-run comparisons of N contained in phytoplankton**  
+        - S3  
+        - Sentry Shoal  
+        - Central Node  
+        - JDF  
+
 * ##[comparePhytoN-TS-SurfaceWithFerryChl-2015-ISink.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/bloomTiming/comparePhytoN-TS-SurfaceWithFerryChl-2015-ISink.ipynb)  
     
     **inter-run comparisons of N contained in phytoplankton**  
@@ -315,6 +323,14 @@ Descriptions under the links below are from the first cell of the notebooks
         - JDF  
 
 * ##[comparePhytoN-TS-SurfaceWithFerryChl-2017-NewLOGnSiT.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/bloomTiming/comparePhytoN-TS-SurfaceWithFerryChl-2017-NewLOGnSiT.ipynb)  
+    
+    **inter-run comparisons of N contained in phytoplankton**  
+        - S3  
+        - Sentry Shoal  
+        - Central Node  
+        - JDF  
+
+* ##[comparePhytoN-TS-SurfaceWithFerryChl-2015-testmuZ.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/bioTuning/bloomTiming/comparePhytoN-TS-SurfaceWithFerryChl-2015-testmuZ.ipynb)  
     
     **inter-run comparisons of N contained in phytoplankton**  
         - S3  
