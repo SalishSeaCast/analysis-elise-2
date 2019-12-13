@@ -23,6 +23,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[modelEqns-LightComp.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/modelEqs/modelEqns-LightComp.ipynb)  
     
+* ##[mesozooplankton-paperFig-Copy1.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/modelEqs/mesozooplankton-paperFig-Copy1.ipynb)  
+    
 * ##[calcLimitationThwFig.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/modelEqs/calcLimitationThwFig.ipynb)  
     
 * ##[calcLimitationThwFig-Jul.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/modelEqs/calcLimitationThwFig-Jul.ipynb)  
