@@ -106,3 +106,4 @@ HC201905_2014   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905_2015   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905_2016   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905_2017   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+rev_noMrubrum   /data/eolson/MEOPAR/SS36runs/CedarRuns/rev_noMrubrum/
