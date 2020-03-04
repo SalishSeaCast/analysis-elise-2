@@ -1,0 +1,15 @@
+name: py27
+dependencies:
+ - python=2.7.*
+ - matplotlib
+ - numpy
+ - pytz
+ - pyyaml
+ - sqlalchemy
+ - scipy
+ - pandas
+ - scikit-learn
+ - hdf5
+ - basemap
+ - cmocean
+ - pip
