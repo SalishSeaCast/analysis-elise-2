@@ -3,14 +3,14 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[addFlowECBuoy.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/databases/addFlowECBuoy.ipynb)  
+* ##[addFlowECBuoy.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/addFlowECBuoy.ipynb)  
     
-* ##[createECBuoyDB-201906.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/databases/createECBuoyDB-201906.ipynb)  
+* ##[createECBuoyDB-201906.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/createECBuoyDB-201906.ipynb)  
     
 
 ##License
 
-These notebooks and files are copyright 2013-2019
+These notebooks and files are copyright 2013-2020
 by the Salish Sea MEOPAR Project Contributors
 and The University of British Columbia.
 

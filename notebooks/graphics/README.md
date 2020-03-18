@@ -3,20 +3,20 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[bathy201702Fig.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/graphics/bathy201702Fig.ipynb)  
+* ##[bathy201702Fig.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/graphics/bathy201702Fig.ipynb)  
     
-* ##[mapsForPresentation-2.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/graphics/mapsForPresentation-2.ipynb)  
+* ##[mapsForPresentation-2.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/graphics/mapsForPresentation-2.ipynb)  
     
-* ##[bathy201702Fig-2.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/graphics/bathy201702Fig-2.ipynb)  
+* ##[bathy201702Fig-2.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/graphics/bathy201702Fig-2.ipynb)  
     
-* ##[mapsForPresentation.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/graphics/mapsForPresentation.ipynb)  
+* ##[mapsForPresentation.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/graphics/mapsForPresentation.ipynb)  
     
-* ##[thalwegGraphic.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/graphics/thalwegGraphic.ipynb)  
+* ##[thalwegGraphic.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/graphics/thalwegGraphic.ipynb)  
     
 
 ##License
 
-These notebooks and files are copyright 2013-2019
+These notebooks and files are copyright 2013-2020
 by the Salish Sea MEOPAR Project Contributors
 and The University of British Columbia.
 

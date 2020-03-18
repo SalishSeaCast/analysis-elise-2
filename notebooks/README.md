@@ -3,26 +3,32 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[tryDask-Last-Copy3.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/tryDask-Last-Copy3.ipynb)  
+* ##[tryDask-Last-Copy3.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/tryDask-Last-Copy3.ipynb)  
     
-* ##[tryDask-Doug.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/tryDask-Doug.ipynb)  
+* ##[tryDask-Doug.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/tryDask-Doug.ipynb)  
     
-* ##[tryDask-Last.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/tryDask-Last.ipynb)  
+* ##[Untitled1.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Untitled1.ipynb)  
     
-* ##[tryDask-Last-Copy2.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/tryDask-Last-Copy2.ipynb)  
+* ##[tryDask-Last.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/tryDask-Last.ipynb)  
     
-* ##[tryDask.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/tryDask.ipynb)  
+* ##[minimalExampleUprightMu-mpl3.1.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/minimalExampleUprightMu-mpl3.1.ipynb)  
     
-* ##[tryDask-Last-Copy1.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/tryDask-Last-Copy1.ipynb)  
+* ##[tryDask-Last-Copy2.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/tryDask-Last-Copy2.ipynb)  
     
-* ##[tryDask-nc.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/tryDask-nc.ipynb)  
+* ##[tryDask.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/tryDask.ipynb)  
     
-* ##[Untitled.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-elise-2/raw/tip/notebooks/Untitled.ipynb)  
+* ##[tryDask-Last-Copy1.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/tryDask-Last-Copy1.ipynb)  
+    
+* ##[minimalExampleUprightMu-oldmpl.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/minimalExampleUprightMu-oldmpl.ipynb)  
+    
+* ##[tryDask-nc.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/tryDask-nc.ipynb)  
+    
+* ##[Untitled.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Untitled.ipynb)  
     
 
 ##License
 
-These notebooks and files are copyright 2013-2019
+These notebooks and files are copyright 2013-2020
 by the Salish Sea MEOPAR Project Contributors
 and The University of British Columbia.
 
