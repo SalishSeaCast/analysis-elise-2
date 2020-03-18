@@ -3,11 +3,11 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[OBC_SurfaceClim_NSi_LO_make.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/OBC/OBC_SurfaceClim_NSi_LO_make.ipynb)  
+* ##[OBC_SurfaceClim_NSi_LO_make.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/OBC/OBC_SurfaceClim_NSi_LO_make.ipynb)  
     
     Create 3-d climatology of N and Si boundary values from LiveOcean-based BCs to replace data-based climatology that was only 2d (time and depth, no variation across Strait)  
 
-* ##[OBC_SurfaceClim_NSi_LO_test.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/OBC/OBC_SurfaceClim_NSi_LO_test.ipynb)  
+* ##[OBC_SurfaceClim_NSi_LO_test.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/OBC/OBC_SurfaceClim_NSi_LO_test.ipynb)  
     
     Create 3-d climatology of N and Si boundary values from LiveOcean-based BCs to replace data-based climatology that was only 2d (time and depth, no variation across Strait)  
 

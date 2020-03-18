@@ -3,67 +3,67 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[vET-paperFig-TS-Copy1.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-paperFig-TS-Copy1.ipynb)  
+* ##[vET-paperFig-TS-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-paperFig-TS-Copy1.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[vET-DFO-SusanReq-TS.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-SusanReq-TS.ipynb)  
+* ##[vET-DFO-SusanReq-TS.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-SusanReq-TS.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[vET-DFO-SusanReq-TS-2007.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-SusanReq-TS-2007.ipynb)  
+* ##[vET-DFO-SusanReq-TS-2007.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-SusanReq-TS-2007.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[tsSeasonalCyclePPT.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/tsSeasonalCyclePPT.ipynb)  
+* ##[tsSeasonalCyclePPT.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/tsSeasonalCyclePPT.ipynb)  
     
-* ##[vET-PSF-RiverSiUpdate.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-PSF-RiverSiUpdate.ipynb)  
+* ##[vET-PSF-RiverSiUpdate.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-PSF-RiverSiUpdate.ipynb)  
     
     **PSF Nutrient Comparison**  
 
-* ##[plotArianeResults.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/plotArianeResults.ipynb)  
+* ##[plotArianeResults.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/plotArianeResults.ipynb)  
     
-* ##[vET-PSF-paperFig-TS-dev.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-TS-dev.ipynb)  
+* ##[vET-PSF-paperFig-TS-dev.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-TS-dev.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[tryEst_Si_N.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/tryEst_Si_N.ipynb)  
+* ##[tryEst_Si_N.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/tryEst_Si_N.ipynb)  
     
-* ##[makeArianeFile.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/makeArianeFile.ipynb)  
+* ##[makeArianeFile.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/makeArianeFile.ipynb)  
     
-* ##[vET-PSF-paperFig-Poster.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-Poster.ipynb)  
+* ##[vET-PSF-paperFig-Poster.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-PSF-paperFig-Poster.ipynb)  
     
     **PSF Nutrient Comparison**  
 
-* ##[plotArianeResults-OceanPredictFig.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/plotArianeResults-OceanPredictFig.ipynb)  
+* ##[plotArianeResults-OceanPredictFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/plotArianeResults-OceanPredictFig.ipynb)  
     
-* ##[vET-DFO-paperFig-Poster.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-Poster.ipynb)  
-    
-    **DFO Nutrient Comparison**  
-
-* ##[testvvlZMatch.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/testvvlZMatch.ipynb)  
+* ##[vET-DFO-paperFig-Poster.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-Poster.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[showPattern-WindVersion-Revised-ZoomInset.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/showPattern-WindVersion-Revised-ZoomInset.ipynb)  
+* ##[testvvlZMatch.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/testvvlZMatch.ipynb)  
     
-* ##[SentryShoalComparisons.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/SentryShoalComparisons.ipynb)  
+    **DFO Nutrient Comparison**  
+
+* ##[showPattern-WindVersion-Revised-ZoomInset.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/showPattern-WindVersion-Revised-ZoomInset.ipynb)  
     
-* ##[SurfaceNitrateMonthlyStats-Paper.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/SurfaceNitrateMonthlyStats-Paper.ipynb)  
+* ##[SentryShoalComparisons.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/SentryShoalComparisons.ipynb)  
+    
+* ##[SurfaceNitrateMonthlyStats-Paper.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/SurfaceNitrateMonthlyStats-Paper.ipynb)  
     
     **Plot nowcast-green monthly mean, std, min and max surface nitrate for the northern strait**  
       
     Episodic nitrate supply to the surface waters of the northwestern Strait of Georgia; evident as a region of elevated mean (March-November) and standard deviation (April-September) of surface nitrate stretching from Discovery Passage to Baynes Sound in a monthly climatology based on simulations from fall 2014 to present.  
 
-* ##[vET-DFO-paperFig-IUGG.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-IUGG.ipynb)  
+* ##[vET-DFO-paperFig-IUGG.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-paperFig-IUGG.ipynb)  
     
     **DFO Nutrient Comparison**  
 
-* ##[vET-DFO-checkPlatform.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-checkPlatform.ipynb)  
+* ##[vET-DFO-checkPlatform.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-DFO-checkPlatform.ipynb)  
     
     **DFO get sampling platform summary**  
 
-* ##[vET-Hakai-paperFig-TS-dev.ipynb](https://nbviewer.jupyter.org/urls/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-Hakai-paperFig-TS-dev.ipynb)  
+* ##[vET-Hakai-paperFig-TS-dev.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/vET-Hakai-paperFig-TS-dev.ipynb)  
     
     **DFO Nutrient Comparison**  
 

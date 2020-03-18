@@ -22,7 +22,7 @@ import os
 import re
 import sys
 
-NBVIEWER = 'https://nbviewer.jupyter.org/urls'
+NBVIEWER = 'https://nbviewer.jupyter.org'
 REPO = 'github/SalishSeaCast/analysis-elise-2/blob/master'
 #REPO_DIR_BASE = 'notebooks'
 TITLE_PATTERN = re.compile('#{1,6} ?')
