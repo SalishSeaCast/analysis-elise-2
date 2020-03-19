@@ -101,9 +101,17 @@ HC201905spinup2014   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhyto
 HC201905spinup2015_3   /data/eolson/results/MEOPAR/SS36runs/HCTests/spinup.201905.3/
 HC201905spinup2015_4   /data/eolson/results/MEOPAR/SS36runs/HCTests/spinup.201905.4/
 HC201905spinup2015_5   /data/eolson/results/MEOPAR/SS36runs/HCTests/spinup.201905.5/
+HC201905_2007   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905_2008   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905_2009   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905_2010   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905_2011   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905_2012   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905_2013   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905_2014   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905_2015   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905_2016   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 HC201905_2017   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905_2018   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
+HC201905_2019   /data/eolson/results/MEOPAR/SS36runs/calcFiles/comparePhytoN/
 rev_noMrubrum   /data/eolson/MEOPAR/SS36runs/CedarRuns/rev_noMrubrum/
