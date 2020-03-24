@@ -201,3 +201,4 @@ if __name__ == "__main__":
     print('done extract')
     pids = runJoinLocs();
     print('done join')
+    pid=subprocess.Popen('rm '+' '+saveloc+'/temp/*', shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
