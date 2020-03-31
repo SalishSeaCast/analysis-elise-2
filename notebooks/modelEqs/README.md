@@ -3,37 +3,37 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[mesozooplankton-newtest.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-newtest.ipynb)  
+* [calcLimitationExample.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationExample.ipynb)  
     
-* ##[modelEqns-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-Copy1.ipynb)  
+* [calcLimitationPlumeFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationPlumeFig.ipynb)  
     
-* ##[modelEqns-SiRemin.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-SiRemin.ipynb)  
+* [calcLimitationThwFig-Jul.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationThwFig-Jul.ipynb)  
     
-* ##[microzo.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/microzo.ipynb)  
+* [calcLimitationThwFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationThwFig.ipynb)  
     
-* ##[modelEqns-N.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-N.ipynb)  
+* [horizontalMesh.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/horizontalMesh.ipynb)  
     
-* ##[mesozooplankton-paperFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-paperFig.ipynb)  
+* [mesozooplankton-newtest.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-newtest.ipynb)  
     
-* ##[calcLimitationPlumeFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationPlumeFig.ipynb)  
+* [mesozooplankton-paperFig-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-paperFig-Copy1.ipynb)  
     
-* ##[calcLimitationExample.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationExample.ipynb)  
+* [mesozooplankton-paperFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-paperFig.ipynb)  
     
-* ##[modelEqns.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns.ipynb)  
+* [mesozooplankton.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton.ipynb)  
     
-* ##[modelEqns-LightComp.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-LightComp.ipynb)  
+* [microzo.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/microzo.ipynb)  
     
-* ##[mesozooplankton-paperFig-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-paperFig-Copy1.ipynb)  
+* [modelEqns-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-Copy1.ipynb)  
     
-* ##[calcLimitationThwFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationThwFig.ipynb)  
+* [modelEqns-LightComp.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-LightComp.ipynb)  
     
-* ##[calcLimitationThwFig-Jul.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationThwFig-Jul.ipynb)  
+* [modelEqns-N.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-N.ipynb)  
     
-* ##[mesozooplankton.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton.ipynb)  
+* [modelEqns-SiRemin.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-SiRemin.ipynb)  
     
-* ##[plotPenaLightResponse.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/plotPenaLightResponse.ipynb)  
+* [modelEqns.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns.ipynb)  
     
-* ##[horizontalMesh.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/horizontalMesh.ipynb)  
+* [plotPenaLightResponse.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/plotPenaLightResponse.ipynb)  
     
 
 ##License

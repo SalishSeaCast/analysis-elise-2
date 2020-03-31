@@ -36,9 +36,12 @@ Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
 """
-    for fn in glob.glob('*.ipynb').sort():
-        readme += '* [{fn}]({url}/{fn})  \n    \n'.format(fn=fn, url=url)
-        readme += notebook_description(fn)
+    fnlist=glob.glob('*.ipynb')
+    fnlist.sort()
+    if len(fnlist)>0:
+        for fn in fnlist:
+            readme += '* [{fn}]({url}/{fn})  \n    \n'.format(fn=fn, url=url)
+            readme += notebook_description(fn)
     license = """
 ##License
 

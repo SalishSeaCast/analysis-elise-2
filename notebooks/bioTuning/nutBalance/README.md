@@ -3,57 +3,57 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[checkSiBalance_various-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_various-Copy1.ipynb)  
+* [NTransports.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/NTransports.ipynb)  
     
-* ##[checkSiBalance_various-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_various-Copy2.ipynb)  
+* [PairedRunsSiParams.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/PairedRunsSiParams.ipynb)  
     
-* ##[checkSiNBalance_spinup201905_newSpin.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_newSpin.ipynb)  
+* [checkSiBalance_depths-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-Copy2.ipynb)  
     
-* ##[checkSiNBalance_newhindcast.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_newhindcast.ipynb)  
+* [checkSiBalance_depths-NoMZME.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-NoMZME.ipynb)  
     
-* ##[checkSiBalance_depths-eff0.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-eff0.ipynb)  
+* [checkSiBalance_depths-Z3.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-Z3.ipynb)  
     
-* ##[checkSiNBalance_spinup201905yr1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905yr1.ipynb)  
+* [checkSiBalance_depths-Z4.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-Z4.ipynb)  
     
-* ##[checkSiBalance_hindcastv2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_hindcastv2.ipynb)  
+* [checkSiBalance_depths-eff0.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-eff0.ipynb)  
     
-* ##[checkSiBalance_depths-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-Copy2.ipynb)  
+* [checkSiBalance_depths-spatial-hindcast.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-spatial-hindcast.ipynb)  
     
-* ##[checkSiBalance_depths-Z4.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-Z4.ipynb)  
+* [checkSiBalance_depths_newhindcast.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths_newhindcast.ipynb)  
     
-* ##[checkSiBalance_depths-NoMZME.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-NoMZME.ipynb)  
+* [checkSiBalance_hindcast0-nowcast-testRuns-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_hindcast0-nowcast-testRuns-Copy1.ipynb)  
     
-* ##[checkSiNBalance_spinup201905_newSpinY2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_newSpinY2.ipynb)  
+* [checkSiBalance_hindcast0-nowcast-testRuns.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_hindcast0-nowcast-testRuns.ipynb)  
     
-* ##[checkSiNBalance_HC201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_HC201812.ipynb)  
+* [checkSiBalance_hindcastv2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_hindcastv2.ipynb)  
     
-* ##[checkSiNBalance_newhindcast-spinup.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_newhindcast-spinup.ipynb)  
+* [checkSiBalance_thalweg-Z4.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_thalweg-Z4.ipynb)  
     
-* ##[checkSiBalance_hindcast0-nowcast-testRuns-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_hindcast0-nowcast-testRuns-Copy1.ipynb)  
+* [checkSiBalance_various-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_various-Copy1.ipynb)  
     
-* ##[checkSiNBalance_HC1905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_HC1905.ipynb)  
+* [checkSiBalance_various-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_various-Copy2.ipynb)  
     
-* ##[checkSiBalance_hindcast0-nowcast-testRuns.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_hindcast0-nowcast-testRuns.ipynb)  
+* [checkSiBalance_various.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_various.ipynb)  
     
-* ##[PairedRunsSiParams.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/PairedRunsSiParams.ipynb)  
+* [checkSiNBalance_HC1905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_HC1905.ipynb)  
     
-* ##[checkSiNBalance_spinup201905-test.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905-test.ipynb)  
+* [checkSiNBalance_HC201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_HC201812.ipynb)  
     
-* ##[checkSiBalance_depths-spatial-hindcast.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-spatial-hindcast.ipynb)  
+* [checkSiNBalance_newhindcast-spinup.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_newhindcast-spinup.ipynb)  
     
-* ##[checkSiBalance_various.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_various.ipynb)  
+* [checkSiNBalance_newhindcast.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_newhindcast.ipynb)  
     
-* ##[checkSiBalance_depths_newhindcast.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths_newhindcast.ipynb)  
+* [checkSiNBalance_spinup201905-test.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905-test.ipynb)  
     
-* ##[checkSiBalance_thalweg-Z4.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_thalweg-Z4.ipynb)  
+* [checkSiNBalance_spinup201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905.ipynb)  
     
-* ##[NTransports.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/NTransports.ipynb)  
+* [checkSiNBalance_spinup201905_5.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_5.ipynb)  
     
-* ##[checkSiBalance_depths-Z3.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_depths-Z3.ipynb)  
+* [checkSiNBalance_spinup201905_newSpin.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_newSpin.ipynb)  
     
-* ##[checkSiNBalance_spinup201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905.ipynb)  
+* [checkSiNBalance_spinup201905_newSpinY2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_newSpinY2.ipynb)  
     
-* ##[checkSiNBalance_spinup201905_5.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_5.ipynb)  
+* [checkSiNBalance_spinup201905yr1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905yr1.ipynb)  
     
 
 ##License
