@@ -7,6 +7,12 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [Untitled1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Untitled1.ipynb)  
     
+* [checkTest.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/checkTest.ipynb)  
+    
+* [checkTestSums-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/checkTestSums-Copy1.ipynb)  
+    
+* [checkTestSums.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/checkTestSums.ipynb)  
+    
 * [minimalExampleUprightMu-mpl3.1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/minimalExampleUprightMu-mpl3.1.ipynb)  
     
 * [minimalExampleUprightMu-oldmpl.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/minimalExampleUprightMu-oldmpl.ipynb)  
