@@ -469,6 +469,8 @@ Descriptions under the links below are from the first cell of the notebooks
         - Central Node  
         - JDF  
 
+* [newtest.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/newtest.ipynb)  
+    
 * [plotBiovol.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/plotBiovol.ipynb)  
     
 
