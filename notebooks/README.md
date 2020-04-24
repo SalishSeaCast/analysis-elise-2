@@ -13,6 +13,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [checkTestSums-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/checkTestSums-Copy2.ipynb)  
     
+* [checkTestSums-Copy3.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/checkTestSums-Copy3.ipynb)  
+    
 * [checkTestSums.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/checkTestSums.ipynb)  
     
 * [minimalExampleUprightMu-mpl3.1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/minimalExampleUprightMu-mpl3.1.ipynb)  
