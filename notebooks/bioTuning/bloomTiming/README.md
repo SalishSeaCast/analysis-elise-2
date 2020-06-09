@@ -35,6 +35,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/Untitled.ipynb)  
     
+* [Untitled1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/Untitled1.ipynb)  
+    
 * [bloomTimeMaps.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/bloomTimeMaps.ipynb)  
     
 * [compare2013_2015_TSPAR.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/compare2013_2015_TSPAR.ipynb)  
@@ -198,14 +200,6 @@ Descriptions under the links below are from the first cell of the notebooks
         - JDF  
 
 * [comparePhytoN-TS-SurfaceWithFerryChl-2015-t15r15LinbfSi.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/comparePhytoN-TS-SurfaceWithFerryChl-2015-t15r15LinbfSi.ipynb)  
-    
-    **inter-run comparisons of N contained in phytoplankton**  
-        - S3  
-        - Sentry Shoal  
-        - Central Node  
-        - JDF  
-
-* [comparePhytoN-TS-SurfaceWithFerryChl-2015-testT.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/comparePhytoN-TS-SurfaceWithFerryChl-2015-testT.ipynb)  
     
     **inter-run comparisons of N contained in phytoplankton**  
         - S3  

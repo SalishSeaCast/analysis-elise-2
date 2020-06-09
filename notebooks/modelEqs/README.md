@@ -13,6 +13,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [horizontalMesh.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/horizontalMesh.ipynb)  
     
+* [mesozooplankton-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-Copy1.ipynb)  
+    
 * [mesozooplankton-newtest.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-newtest.ipynb)  
     
 * [mesozooplankton-paperFig-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-paperFig-Copy1.ipynb)  
