@@ -281,6 +281,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [HakaiComparisons-hindcast201812_2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HakaiComparisons-hindcast201812_2016.ipynb)  
     
+* [HakaiSummary.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HakaiSummary.ipynb)  
+    
 * [LO_NO3_OBC_correction.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/LO_NO3_OBC_correction.ipynb)  
     
     **DFO Nutrient Comparison**  

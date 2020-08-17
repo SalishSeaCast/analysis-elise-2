@@ -3,23 +3,31 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* [combine2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Nina/combine2015.ipynb)  
+* [combine2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2015.ipynb)  
     
-* [combine2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Nina/combine2016.ipynb)  
+* [combine2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2016.ipynb)  
     
-* [combine2017.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Nina/combine2017.ipynb)  
+* [combine2017.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2017.ipynb)  
     
-* [combine2018.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Nina/combine2018.ipynb)  
+* [combine2018.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2018.ipynb)  
     
-* [combine2019.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Nina/combine2019.ipynb)  
+* [combine2019.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2019.ipynb)  
     
-* [compHPLCModel1812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Nina/compHPLCModel1812.ipynb)  
+* [compHPLCModel-Clusters.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModel-Clusters.ipynb)  
     
-* [compHPLCModel1905-2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Nina/compHPLCModel1905-2.ipynb)  
+* [compHPLCModel1905-2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModel1905-2.ipynb)  
     
-* [compHPLCModel1905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Nina/compHPLCModel1905.ipynb)  
+* [compHPLCModel1905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModel1905.ipynb)  
     
-* [overview2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Nina/overview2015.ipynb)  
+* [compHPLCModelFirstLook-201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-201812.ipynb)  
+    
+* [compHPLCModelFirstLook-201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-201905.ipynb)  
+    
+* [compHPLCModelFirstLook-Base-BroadRegions.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Base-BroadRegions.ipynb)  
+    
+* [compHPLCModelFirstLook-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Base.ipynb)  
+    
+* [overview2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/overview2015.ipynb)  
     
 
 ##License
