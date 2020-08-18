@@ -13,7 +13,9 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [combine2019.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2019.ipynb)  
     
-* [compHPLCModel-Clusters.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModel-Clusters.ipynb)  
+* [compHPLCModel-Clusters-201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModel-Clusters-201812.ipynb)  
+    
+* [compHPLCModel-Clusters-201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModel-Clusters-201905.ipynb)  
     
 * [compHPLCModel1905-2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModel1905-2.ipynb)  
     
