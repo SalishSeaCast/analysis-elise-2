@@ -99,6 +99,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [checkTestSums.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AFiltFluxes/checkTestSums.ipynb)  
     
+* [comp-SusansRunsATFFix.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AFiltFluxes/comp-SusansRunsATFFix.ipynb)  
+    
 * [comp-fluxes1812-fluxesCorr.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AFiltFluxes/comp-fluxes1812-fluxesCorr.ipynb)  
     
 * [fluxTBL-withAreal.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AFiltFluxes/fluxTBL-withAreal.ipynb)  
