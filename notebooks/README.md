@@ -5,6 +5,11 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * [ArchiveFRDRFileConvert.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/ArchiveFRDRFileConvert.ipynb)  
     
+* [NancyWindTides-CambellR.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NancyWindTides-CambellR.ipynb)  
+    
+    tides and winds  
+
+
 * [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Untitled.ipynb)  
     
 * [Untitled1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Untitled1.ipynb)  
