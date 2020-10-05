@@ -147,6 +147,14 @@ def dateTimeToDecDay(dtin):
     dd=tdif.days+tdif.seconds/(3600*24)
     return dd
 
+def cXfromX(X,pathlen=0.25):
+    X=np.array(X)
+    X[np.isnan(X)]=-5
+    Y=np.nan*X
+    iii=(X>0)&(X<100)
+    Y[iii]=-np.log(X[iii]/100.0)/pathlen
+    return Y
+
 
 """-----------Light-related functions-------------"""
 #constant:
