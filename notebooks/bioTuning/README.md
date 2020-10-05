@@ -334,6 +334,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * [compSMELTSSC_HC201612.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/compSMELTSSC_HC201612.ipynb)  
     
+* [compTVDSink.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/compTVDSink.ipynb)  
+    
 * [compareSi-PAR13bfastLR.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/compareSi-PAR13bfastLR.ipynb)  
     
 * [compareSi.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/compareSi.ipynb)  

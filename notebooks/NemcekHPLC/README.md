@@ -21,6 +21,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [compHPLCModel1905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModel1905.ipynb)  
     
+* [compHPLCModelFirstLook-201812-Regress.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-201812-Regress.ipynb)  
+    
 * [compHPLCModelFirstLook-201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-201812.ipynb)  
     
 * [compHPLCModelFirstLook-201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-201905.ipynb)  
