@@ -1,4 +1,6 @@
 *.png
+*.pkl
 *.avi
 **/.ipynb_checkpoints/*
 **/__pycache__/*
+**/Untitled*
