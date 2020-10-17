@@ -29,11 +29,11 @@ def main():
     dirs1.sort()
     # create full list of filenames
     filenames1=list()
-    bnamesAll=list() 
+    bnamesAll=set() 
     for cdirpath in dirs1:
         filenames1=filenames1+[os.path.join(cdirpath,f) for f in os.listdir(cdirpath) \
                                if ((f not in bnamesAll) and (not re.match('.*jpg$',f)))]
-        bnamesAll=bnamesAll+[f for f in os.listdir(cdirpath)]
+        bnamesAll=bnamesAll.union(set([f for f in os.listdir(cdirpath)]))
         # left over from nutrients version where multiple requests led to overlap; retain for future use
     filenames1.sort()
     filenames=filenames1 #contains full paths
@@ -182,7 +182,7 @@ def main():
     for ifile in filenames:
         stationNo+=1
         sourceFile=re.search(basepath+'(.*)', ifile).group(1)
-        fout.write(sourceFile+'\n')
+        fout.write(str(stationNo)+': '+sourceFile+'\n')
         varNames={}
         varLens={}
         varUnits={}
@@ -400,6 +400,7 @@ def main():
                 if re.search('\*END OF HEADER', line):
                     indata=True
                     ininst=False
+                    incom=False
                 if re.search('\$END',line):
                     inloc=False
                     ininst=False

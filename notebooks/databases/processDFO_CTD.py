@@ -110,23 +110,26 @@ def main():
         a1.ID!=a2.ID)).filter(a1.Include==True,a2.Include==True,a1.ID<a2.ID)
     for aID, bID in dupsQRY.all():
         # set include to false for second station entry
-        print(aID,bID)
+        print("Duplicates:",aID,bID)
         sRec=session0.query(StationTBL0).filter(StationTBL0.ID==bID).one()
         setattr(sRec,'Include',False)
-        # find all depths in ObsTBL records associated with second station entry 
-        # that are also present in records associated with first station entry
-        # and set their Include to False
-        # base depths on pressure because it is present in all records
-        zs1=[pp for pp, in session0.query(ObsTBL0.Pressure).filter(ObsTBL0.StationTBLID==aID).all()]
-        zs2=[pp for pp, in session0.query(ObsTBL0.Pressure).filter(ObsTBL0.StationTBLID==bID).all()]
-        for i2 in zs2:
-            if np.min([np.abs(i2-i1) for i1 in zs1])<=0.5:
-                oRec=session0.query(ObsTBL0).filter(and_(ObsTBL0.StationTBLID==bID,ObsTBL0.Pressure==i2)).one()
-                setattr(oRec,'Include',False)
-        # associate all records previously associated with second station entry with first entry
-        for obsID, in session0.query(ObsTBL0.ID).filter(ObsTBL0.StationTBLID==bID).all():
-            Rec=session0.query(ObsTBL0).filter(ObsTBL0.ID==obsID).one()
-            setattr(Rec,'StationTBLID',aID)
+        # changed behavior 2020-10-08:
+        # Previous: find all depths in ObsTBL records associated with second station entry that
+        #           are also present in records associated with first station entry and set their 
+        #           Include to False; base depths on pressure because it is present in all records
+        ##zs1=[pp for pp, in session0.query(ObsTBL0.Pressure).filter(ObsTBL0.StationTBLID==aID).all()]
+        ##zs2=[pp for pp, in session0.query(ObsTBL0.Pressure).filter(ObsTBL0.StationTBLID==bID).all()]
+        ##for i2 in zs2:
+        ##    if np.min([np.abs(i2-i1) for i1 in zs1])<=0.5:
+        ##        oRec=session0.query(ObsTBL0).filter(and_(ObsTBL0.StationTBLID==bID,ObsTBL0.Pressure==i2)).one()
+        ##        setattr(oRec,'Include',False)
+        ### associate all records previously associated with second station entry with first entry
+        ##for obsID, in session0.query(ObsTBL0.ID).filter(ObsTBL0.StationTBLID==bID).all():
+        ##    Rec=session0.query(ObsTBL0).filter(ObsTBL0.ID==obsID).one()
+        ##    setattr(Rec,'StationTBLID',aID)
+        # New: set Include to False for all records associated with Stations where Include is False
+        #      to avoid discontinuous PAR profiles
+        session0.query(ObsTBL0).filter(ObsTBL0.StationTBLID==bID).update({"Include":False})
         session0.commit()
 
     session0.close()
