@@ -9,9 +9,13 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [addFlowECBuoy.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/addFlowECBuoy.ipynb)  
     
+* [checkDFO_CTD-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/checkDFO_CTD-Copy1.ipynb)  
+    
 * [checkDFO_CTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/checkDFO_CTD.ipynb)  
     
 * [createECBuoyDB-201906.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/createECBuoyDB-201906.ipynb)  
+    
+* [demo_db_SQLite_IOSData.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/demo_db_SQLite_IOSData.ipynb)  
     
 * [lsVars_DFO_CTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/lsVars_DFO_CTD.ipynb)  
     

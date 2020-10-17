@@ -13,6 +13,8 @@ Descriptions under the links below are from the first cell of the notebooks
     - match PAR, CT, and SA  
     - if possible, also include phyto biomass and turbidity for k estimation  
 
+* [compForcing_UBCSolar.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compForcing_UBCSolar.ipynb)  
+    
 * [compPARCTD_HC201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compPARCTD_HC201812.ipynb)  
     
 * [compPARCTD_PAR13bfastSiLR.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compPARCTD_PAR13bfastSiLR.ipynb)  
