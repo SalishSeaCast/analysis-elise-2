@@ -49,6 +49,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**  
 
+* [DFO-vET-2015_HC201812-testNewOcProfDB.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/DFO-vET-2015_HC201812-testNewOcProfDB.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * [DFO-vET-2015_HC201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/DFO-vET-2015_HC201812.ipynb)  
     
     **DFO Nutrient Comparison**  

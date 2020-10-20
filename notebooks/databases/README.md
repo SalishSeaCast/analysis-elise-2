@@ -19,6 +19,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [lsVars_DFO_CTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/lsVars_DFO_CTD.ipynb)  
     
+* [processDFO_OcProfDB.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/processDFO_OcProfDB.ipynb)  
+    
 
 ##License
 
