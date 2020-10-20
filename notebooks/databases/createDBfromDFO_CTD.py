@@ -14,7 +14,6 @@ import numpy as np
 def main():
 
     basepath='/ocean/shared/SalishSeaCastData/DFO/CTD/'
-    basedir=basepath + 'req20181116/'
     dbname='DFO_CTD'
     # if more paths added later (additional data requests) see createDBfromDFO_OPDB.py for how to add
     fout=open(basepath+'createDBfromDFO_CTD_log.txt','w')
