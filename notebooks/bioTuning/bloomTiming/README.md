@@ -119,14 +119,6 @@ Descriptions under the links below are from the first cell of the notebooks
         - Central Node  
         - JDF  
 
-* [comparePhytoN-HC201905spinup2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/comparePhytoN-HC201905spinup2015.ipynb)  
-    
-    **inter-run comparisons of N contained in phytoplankton**  
-        - S3  
-        - Sentry Shoal  
-        - Central Node  
-        - JDF  
-
 * [comparePhytoN-HC201905spinup2015_1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/comparePhytoN-HC201905spinup2015_1.ipynb)  
     
     **inter-run comparisons of N contained in phytoplankton**  

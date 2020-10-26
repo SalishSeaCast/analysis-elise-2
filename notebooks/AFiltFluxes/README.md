@@ -97,6 +97,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [checkTestSums-shortTestAll.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AFiltFluxes/checkTestSums-shortTestAll.ipynb)  
     
+* [checkTestSums-tvdDiatoms-Alpha1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AFiltFluxes/checkTestSums-tvdDiatoms-Alpha1.ipynb)  
+    
 * [checkTestSums-tvdDiatoms-VarShape.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AFiltFluxes/checkTestSums-tvdDiatoms-VarShape.ipynb)  
     
 * [checkTestSums-tvdDiatoms.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AFiltFluxes/checkTestSums-tvdDiatoms.ipynb)  
