@@ -3,6 +3,12 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* [ClusterHPLCEval-201905-BIO.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/ClusterHPLCEval-201905-BIO.ipynb)  
+    
+* [ClusterHPLCEval-201905-BIOMASS.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/ClusterHPLCEval-201905-BIOMASS.ipynb)  
+    
+* [ClusterHPLCEval-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/ClusterHPLCEval-Base.ipynb)  
+    
 * [combine2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2015.ipynb)  
     
 * [combine2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2016.ipynb)  
@@ -36,8 +42,6 @@ Descriptions under the links below are from the first cell of the notebooks
 * [compHPLCModelFirstLook-Regress-201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-201905.ipynb)  
     
 * [compHPLCModelFirstLook-Regress-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-Base.ipynb)  
-    
-* [newClusterHPLCEval.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/newClusterHPLCEval.ipynb)  
     
 * [overview2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/overview2015.ipynb)  
     
