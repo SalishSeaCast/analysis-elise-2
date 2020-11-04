@@ -3,6 +3,22 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* [bloomTime_2015_tvdTune_201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/bloomTime_2015_tvdTune_201812.ipynb)  
+    
+    **compare bloom timing versus S3 ferry chl**  
+        - S3  
+        - Sentry Shoal  
+        - Central Node  
+        - JDF  
+
+* [bloomTime_2015_tvdTune_201812ESSMORT-2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/bloomTime_2015_tvdTune_201812ESSMORT-2.ipynb)  
+    
+    **compare bloom timing versus S3 ferry chl**  
+        - S3  
+        - Sentry Shoal  
+        - Central Node  
+        - JDF  
+
 * [bloomTime_2015_tvdTune_201812ESSMORT.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/bloomTime_2015_tvdTune_201812ESSMORT.ipynb)  
     
     **compare bloom timing versus S3 ferry chl**  

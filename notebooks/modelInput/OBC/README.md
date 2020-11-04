@@ -11,6 +11,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Create 3-d climatology of N and Si boundary values from LiveOcean-based BCs to replace data-based climatology that was only 2d (time and depth, no variation across Strait)  
 
+* [turbTestOBC.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/OBC/turbTestOBC.ipynb)  
+    
 
 ##License
 
