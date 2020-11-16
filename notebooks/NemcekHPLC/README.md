@@ -9,6 +9,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [ClusterHPLCEval-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/ClusterHPLCEval-Base.ipynb)  
     
+* [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/Untitled.ipynb)  
+    
 * [combine2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2015.ipynb)  
     
 * [combine2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/combine2016.ipynb)  
@@ -38,6 +40,14 @@ Descriptions under the links below are from the first cell of the notebooks
 * [compHPLCModelFirstLook-HPLC.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-HPLC.ipynb)  
     
 * [compHPLCModelFirstLook-Regress-201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-201812.ipynb)  
+    
+* [compHPLCModelFirstLook-Regress-2018ES_LF-2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-2018ES_LF-2015.ipynb)  
+    
+* [compHPLCModelFirstLook-Regress-2018ES_LF-2015_0.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-2018ES_LF-2015_0.ipynb)  
+    
+* [compHPLCModelFirstLook-Regress-2018ES_LF-2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-2018ES_LF-2016.ipynb)  
+    
+* [compHPLCModelFirstLook-Regress-2018ES_LF-2017.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-2018ES_LF-2017.ipynb)  
     
 * [compHPLCModelFirstLook-Regress-201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-201905.ipynb)  
     

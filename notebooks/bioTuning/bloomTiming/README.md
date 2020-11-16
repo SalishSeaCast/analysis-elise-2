@@ -442,6 +442,8 @@ Descriptions under the links below are from the first cell of the notebooks
         - Central Node  
         - JDF  
 
+* [depthandPhyto.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/depthandPhyto.ipynb)  
+    
 * [fracChlStratogem.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/fracChlStratogem.ipynb)  
     
     Objectives:  
