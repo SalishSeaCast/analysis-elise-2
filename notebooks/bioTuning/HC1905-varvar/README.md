@@ -9,7 +9,7 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * [vET-DFO-1905-2015_2017.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-1905-2015_2017.ipynb)  
     
-    **PSF Nutrient Comparison**  
+    **DFO Nutrient Comparison HC201905**  
 
 * [vET-HC1905-DFO-NutChlPhys-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-Base.ipynb)  
     

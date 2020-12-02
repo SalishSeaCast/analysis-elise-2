@@ -3,6 +3,8 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* [FRPSamplingLocsMap.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/FRPSamplingLocsMap.ipynb)  
+    
 * [albedo-FirstLook.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/albedo-FirstLook.ipynb)  
     
     In this notebook I will compare the above and below surface PAR measurements made in the Fraser plume to turbidity using a very simple model- assume that above surface PAR is S0, and below surface par is S0*(1-alpha). This may not be accurate. May need to account for reflected light due to spherical sensor; should probably talk to Rich about interpretation.  
