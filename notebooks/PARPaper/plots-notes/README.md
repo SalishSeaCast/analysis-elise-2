@@ -15,7 +15,7 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **Basic plots of particle size distribution in terms of number, surface area, and volume by particle diameter**  
 
-* [plotTurb.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/plotTurb.ipynb)  
+* [plotTurbTS.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/plotTurbTS.ipynb)  
     
 
 ##License
