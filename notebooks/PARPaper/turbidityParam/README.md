@@ -31,6 +31,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [checkTurbFiles-inst.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/turbidityParam/checkTurbFiles-inst.ipynb)  
     
+* [checkTurbFiles-testT3Fix.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/turbidityParam/checkTurbFiles-testT3Fix.ipynb)  
+    
 * [checkTurbFiles-testT3_qsrFalse.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/turbidityParam/checkTurbFiles-testT3_qsrFalse.ipynb)  
     
 * [checkTurbFiles-tests-results.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/turbidityParam/checkTurbFiles-tests-results.ipynb)  
@@ -38,6 +40,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * [checkTurbFiles-tuning.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/turbidityParam/checkTurbFiles-tuning.ipynb)  
     
 * [checkTurbFiles.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/turbidityParam/checkTurbFiles.ipynb)  
+    
+* [checkTurbReflection-testT3Fixed.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/turbidityParam/checkTurbReflection-testT3Fixed.ipynb)  
+    
+* [checkTurbReflection-testT3TRP.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/turbidityParam/checkTurbReflection-testT3TRP.ipynb)  
     
 
 ##License
