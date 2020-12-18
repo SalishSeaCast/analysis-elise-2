@@ -27,7 +27,7 @@ dependencies:
  - oyaml
  - scipy
  - cmocean
- - xlrd
+ - openpyxl
  - f90nml
  - gsw
  - papermill
