@@ -27,6 +27,8 @@ Descriptions under the links below are from the first cell of the notebooks
         - Central Node  
         - JDF  
 
+* [fixedBottomFlux_checkBFXfiles.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/fixedBottomFlux_checkBFXfiles.ipynb)  
+    
 
 ##License
 

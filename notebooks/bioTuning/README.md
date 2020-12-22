@@ -299,6 +299,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**  
 
+* [ListMatchedModelFilesDFO.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/ListMatchedModelFilesDFO.ipynb)  
+    
 * [NewBBCChecks-SMELTB.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/NewBBCChecks-SMELTB.ipynb)  
     
     **DFO Nutrient Comparison**  

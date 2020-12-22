@@ -11,6 +11,18 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison HC201905**  
 
+* [vET-DFO-paperFig-HC1905-byCluster.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-paperFig-HC1905-byCluster.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
+* [vET-DFO-paperFig-HC1905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-paperFig-HC1905.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
+* [vET-DFO-paperFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-paperFig.ipynb)  
+    
+    **DFO Nutrient Comparison**  
+
 * [vET-HC1905-DFO-NutChlPhys-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-Base.ipynb)  
     
 * [vET-HC1905-DFO-NutChlPhys-Table.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-Table.ipynb)  
