@@ -53,8 +53,8 @@ def main():
         'Salinity__Pre1978','Quality_Flag_Sali','Salinity__Unknown', 'Sample_Method', 'Silicate',
         'Quality_Flag_Sili', 'Station', 'Temperature', 'Quality_Flag_Temp','Temperature_Draw',
         'Temperature_Primary','Temperature_Reversing', 'Temperature_Secondary', 'Time', 'Time_of_Obs',
-        'Total_Phosphorus', 'Transmissivity', 'Turbidity_Seapoint'}
-    varlistu=choosevars | {x+'_units' for x in choosevars if not re.search('Flag', x)}
+        'Total_Phosphorus', 'Transmissivity', 'Turbidity_Seapoint','Sample_Number'}
+    varlistu=choosevars | {x+'_units' for x in choosevars if (not re.search('Flag', x)) and (x != 'Sample_Number')}
 
     # create database and prepare tables
     engine = create_engine('sqlite:///' + basepath + dbname + '.sqlite')
