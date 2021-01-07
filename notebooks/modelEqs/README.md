@@ -11,6 +11,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [calcLimitationThwFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationThwFig.ipynb)  
     
+* [checkGraze.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/checkGraze.ipynb)  
+    
 * [horizontalMesh.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/horizontalMesh.ipynb)  
     
 * [mesozooplankton-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-Copy1.ipynb)  
@@ -40,7 +42,7 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##License
 
-These notebooks and files are copyright 2013-2020
+These notebooks and files are copyright 2013-2021
 by the Salish Sea MEOPAR Project Contributors
 and The University of British Columbia.
 

@@ -11,6 +11,10 @@ Descriptions under the links below are from the first cell of the notebooks
       
     Episodic nitrate supply to the surface waters of the northwestern Strait of Georgia; evident as a region of elevated mean (March-November) and standard deviation (April-September) of surface nitrate stretching from Discovery Passage to Baynes Sound in a monthly climatology based on simulations from fall 2014 to present.  
 
+* [evalExample_DFO_NutsChl-byCluster-Seasonal.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/evalExample_DFO_NutsChl-byCluster-Seasonal.ipynb)  
+    
+* [evalExample_DFO_NutsChl.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/evalExample_DFO_NutsChl.ipynb)  
+    
 * [evalTSExample_DFOCTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/evalTSExample_DFOCTD.ipynb)  
     
 * [makeArianeFile.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/makeArianeFile.ipynb)  
@@ -72,7 +76,7 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##License
 
-These notebooks and files are copyright 2013-2020
+These notebooks and files are copyright 2013-2021
 by the Salish Sea MEOPAR Project Contributors
 and The University of British Columbia.
 
