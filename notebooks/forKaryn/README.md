@@ -7,6 +7,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [plotModelOutputExamples.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plotModelOutputExamples.ipynb)  
     
+* [plotPugetStations.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plotPugetStations.ipynb)  
+    
 * [plottingExample.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plottingExample.ipynb)  
     
 * [timeseriesExamples-netCDF4.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/timeseriesExamples-netCDF4.ipynb)  
