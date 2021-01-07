@@ -50,11 +50,12 @@ def main():
         'Flag_Phosphate','Quality_Flag_Phos', 'Phosphate(inorg)', 'Phytoplankton_Volume', 'Pressure',
         'Pressure_Reversing', 'Production_Primary', 'Quality_Flag_Nitr', 'Quality_Flag_Time',
         'Quality_Flag_Tota', 'Salinity', 'Salinity_Bottle', 'Salinity_T0_C0', 'Salinity_T1_C1',
-        'Salinity__Pre1978','Quality_Flag_Sali','Salinity__Unknown', 'Sample_Method', 'Silicate',
+        'Salinity__Pre1978','Quality_Flag_Sali','Salinity__Unknown', 'Sample_Method', 'Sample_Number', 'Silicate',
         'Quality_Flag_Sili', 'Station', 'Temperature', 'Quality_Flag_Temp','Temperature_Draw',
         'Temperature_Primary','Temperature_Reversing', 'Temperature_Secondary', 'Time', 'Time_of_Obs',
-        'Total_Phosphorus', 'Transmissivity', 'Turbidity_Seapoint','Sample_Number'}
+        'Total_Phosphorus', 'Transmissivity', 'Turbidity_Seapoint'}
     varlistu=choosevars | {x+'_units' for x in choosevars if (not re.search('Flag', x)) and (x != 'Sample_Number')}
+    print(varlistu)
 
     # create database and prepare tables
     engine = create_engine('sqlite:///' + basepath + dbname + '.sqlite')
