@@ -19,6 +19,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * [demo_db_SQLite_IOSData.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/demo_db_SQLite_IOSData.ipynb)  
     
+* [inventory_DFO_JDF_bottle.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/inventory_DFO_JDF_bottle.ipynb)  
+    
+    **DFO Bottle Data Inventory**  
+
 * [lsVars_DFO_CTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/lsVars_DFO_CTD.ipynb)  
     
 * [processDFO_OcProfDB.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/databases/processDFO_OcProfDB.ipynb)  
