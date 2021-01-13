@@ -3,19 +3,19 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* [PSD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/PSD.ipynb)  
+* ## [PSD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/PSD.ipynb)  
     
-* [ParticleSizeDistribution-DiscussionWithRogerPieters.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/ParticleSizeDistribution-DiscussionWithRogerPieters.ipynb)  
+* ## [ParticleSizeDistribution-DiscussionWithRogerPieters.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/ParticleSizeDistribution-DiscussionWithRogerPieters.ipynb)  
     
-    **Discussion with Roger Pieters on Dec 13, 2017**  
+    **Discussion with Roger Pieters on Dec 13, 2017**
 
-* [ParticleSizeDistribution-dev.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/ParticleSizeDistribution-dev.ipynb)  
+* ## [ParticleSizeDistribution-dev.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/ParticleSizeDistribution-dev.ipynb)  
     
-* [ParticleSizeDistribution.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/ParticleSizeDistribution.ipynb)  
+* ## [ParticleSizeDistribution.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/ParticleSizeDistribution.ipynb)  
     
-    **Basic plots of particle size distribution in terms of number, surface area, and volume by particle diameter**  
+    **Basic plots of particle size distribution in terms of number, surface area, and volume by particle diameter**
 
-* [plotTurbTS.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/plotTurbTS.ipynb)  
+* ## [plotTurbTS.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/plots-notes/plotTurbTS.ipynb)  
     
 
 ##License

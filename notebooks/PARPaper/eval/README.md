@@ -3,25 +3,25 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* [PARCalcs_1_DB.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/PARCalcs_1_DB.ipynb)  
+* ## [PARCalcs_1_DB.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/PARCalcs_1_DB.ipynb)  
     
-* [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/Untitled.ipynb)  
+* ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/Untitled.ipynb)  
     
-* [addMatchedPARtoDB.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/addMatchedPARtoDB.ipynb)  
+* ## [addMatchedPARtoDB.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/addMatchedPARtoDB.ipynb)  
     
-    **Match model output to DFO CTD data and store in /data/eolson/results/MEOPAR/PARcalcs/DFO_CTD_withModelPAR.sqlite**  
-    - match PAR, CT, and SA  
-    - if possible, also include phyto biomass and turbidity for k estimation  
+    **Match model output to DFO CTD data and store in /data/eolson/results/MEOPAR/PARcalcs/DFO_CTD_withModelPAR.sqlite**
+    - match PAR, CT, and SA
+    - if possible, also include phyto biomass and turbidity for k estimation
 
-* [compForcing_UBCSolar.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compForcing_UBCSolar.ipynb)  
+* ## [compForcing_UBCSolar.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compForcing_UBCSolar.ipynb)  
     
-* [compPARCTD_HC201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compPARCTD_HC201812.ipynb)  
+* ## [compPARCTD_HC201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compPARCTD_HC201812.ipynb)  
     
-* [compPARCTD_PAR13bfastSiLR.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compPARCTD_PAR13bfastSiLR.ipynb)  
+* ## [compPARCTD_PAR13bfastSiLR.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compPARCTD_PAR13bfastSiLR.ipynb)  
     
-* [compPARForcing.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compPARForcing.ipynb)  
+* ## [compPARForcing.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/compPARForcing.ipynb)  
     
-* [loadPARCTD-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/loadPARCTD-Copy1.ipynb)  
+* ## [loadPARCTD-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/PARPaper/eval/loadPARCTD-Copy1.ipynb)  
     
 
 ##License

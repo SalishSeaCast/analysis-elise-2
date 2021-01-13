@@ -22,13 +22,13 @@ import os
 import re
 import sys
 
-NBVIEWER = 'https://nbviewer.jupyter.org'
-REPO = 'github/SalishSeaCast/analysis-elise-2/blob/master'
+NBVIEWER = 'https://nbviewer.jupyter.org/github'
+REPO = 'SalishSeaCast/analysis-elise-2/blob/master'
 #REPO_DIR_BASE = 'notebooks'
 TITLE_PATTERN = re.compile('#{1,6} ?')
 
 def main(REPO_DIR):
-    url = os.path.join(NBVIEWER, REPO, REPO_DIR)
+    url = f"{NBVIEWER}/{REPO}/{REPO_DIR}"
     readme = """\
 The links below are to static renderings of the notebooks via
 [nbviewer.jupyter.org](https://nbviewer.jupyter.org/).
@@ -40,7 +40,7 @@ Descriptions under the links below are from the first cell of the notebooks
     fnlist.sort()
     if len(fnlist)>0:
         for fn in fnlist:
-            readme += '* [{fn}]({url}/{fn})  \n    \n'.format(fn=fn, url=url)
+            readme += f"* ## [{fn}]({url}/{fn})  \n    \n"
             readme += notebook_description(fn)
     license = """
 ##License
@@ -57,34 +57,29 @@ Please see the LICENSE file for details of the license.
         f.writelines(readme)
         f.writelines(license)
 
-
 def notebook_description(fn):
-    description = ''
-    with open(fn, 'rt') as notebook:
+    description = ""
+    with open(fn, "rt") as notebook:
         contents = json.load(notebook)
     try:
-        first_cell = contents['worksheets'][0]['cells'][0]
+        first_cell = contents["worksheets"][0]["cells"][0]
     except KeyError:
-        first_cell = contents['cells'][0]
-    first_cell_type = first_cell['cell_type']
-    if first_cell_type not in 'markdown raw'.split():
+        first_cell = contents["cells"][0]
+    first_cell_type = first_cell["cell_type"]
+    if first_cell_type not in "markdown raw".split():
         return description
-    desc_lines = first_cell['source']
+    desc_lines = first_cell["source"]
     for line in desc_lines:
-        suffix = ''
+        suffix = ""
         if TITLE_PATTERN.match(line):
-            line = TITLE_PATTERN.sub('**', line)
-            suffix = '**'
-        if line.endswith('\n'):
-            description += (
-                '    {line}{suffix}  \n'
-                .format(line=line[:-1], suffix=suffix))
+            line = TITLE_PATTERN.sub("**", line)
+            suffix = "**"
+        if line.endswith("\n"):
+            description += f"    {line[:-1]}{suffix}\n"
         else:
-            description += (
-                '    {line}{suffix}  '.format(line=line, suffix=suffix))
-    description += '\n' * 2
+            description += f"    {line}{suffix}"
+    description += "\n" * 2
     return description
-
 
 if __name__ == '__main__':
     startdir=os.getcwd()
