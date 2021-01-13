@@ -25,6 +25,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**  
 
+* [vET-HC1905-DFO-NutChlPhys-2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-2015.ipynb)  
+    
 * [vET-HC1905-DFO-NutChlPhys-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-Base.ipynb)  
     
 * [vET-HC1905-DFO-NutChlPhys-Table.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-Table.ipynb)  
