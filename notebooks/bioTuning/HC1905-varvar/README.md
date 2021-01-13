@@ -7,8 +7,6 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Compare all Hakai CTD stations, regardless of whether there is matched nutrient data  
 
-* [eval-PSF-2021testRuns-202007D-again.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/eval-PSF-2021testRuns-202007D-again.ipynb)  
-    
 * [vET-DFO-1905-2015_2017.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-1905-2015_2017.ipynb)  
     
     **DFO Nutrient Comparison HC201905**  
