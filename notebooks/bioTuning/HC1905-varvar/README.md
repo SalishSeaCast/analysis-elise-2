@@ -3,10 +3,26 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* ## [CTDtestNew.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/CTDtestNew.ipynb)  
+    
+* ## [CTDtestOrig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/CTDtestOrig.ipynb)  
+    
+* ## [Fluor.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Fluor.ipynb)  
+    
 * ## [HakaiCTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/HakaiCTD.ipynb)  
     
     Compare all Hakai CTD stations, regardless of whether there is matched nutrient data
 
+* ## [Puget_WADE_Example_2009-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2009-Copy1.ipynb)  
+    
+* ## [Puget_WADE_Example_2009.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2009.ipynb)  
+    
+* ## [Puget_WADE_Example_CTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_CTD.ipynb)  
+    
+* ## [Puget_WADE_Example_Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_Copy2.ipynb)  
+    
+* ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Untitled.ipynb)  
+    
 * ## [vET-DFO-1905-2015_2017.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-1905-2015_2017.ipynb)  
     
     **DFO Nutrient Comparison HC201905**
@@ -23,11 +39,11 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**
 
-* ## [vET-HC1905-DFO-NutChlPhys-2015-Copy.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-2015-Copy.ipynb)  
-    
-* ## [vET-HC1905-DFO-NutChlPhys-2015-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-2015-Copy2.ipynb)  
+* ## [vET-HC1905-DFO-NutChlPhys-2015-Orig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-2015-Orig.ipynb)  
     
 * ## [vET-HC1905-DFO-NutChlPhys-2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-2015.ipynb)  
+    
+* ## [vET-HC1905-DFO-NutChlPhys-2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-2016.ipynb)  
     
 * ## [vET-HC1905-DFO-NutChlPhys-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-Base.ipynb)  
     
