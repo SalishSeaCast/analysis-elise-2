@@ -3,6 +3,10 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* ## [modelAtmosForcingExample.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Examples/modelAtmosForcingExample.ipynb)  
+    
+* ## [timeseriesExamples-xarray-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Examples/timeseriesExamples-xarray-Copy1.ipynb)  
+    
 * ## [timeseriesExamples-xarray.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Examples/timeseriesExamples-xarray.ipynb)  
     
 
