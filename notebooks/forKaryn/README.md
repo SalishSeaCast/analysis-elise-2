@@ -5,6 +5,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ## [LoadZoop.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/LoadZoop.ipynb)  
     
+* ## [LoadZoop_K.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/LoadZoop_K.ipynb)  
+    
 * ## [plotModelOutputExamples.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plotModelOutputExamples.ipynb)  
     
 * ## [plotPugetStations.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plotPugetStations.ipynb)  

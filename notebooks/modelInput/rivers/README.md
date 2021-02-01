@@ -33,6 +33,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **create daily averages from hourly time series and fill larger gaps based on interpolation of daily averages**
 
+* ## [riverForcingConsts-202101.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/rivers/riverForcingConsts-202101.ipynb)  
+    
 
 ##License
 
