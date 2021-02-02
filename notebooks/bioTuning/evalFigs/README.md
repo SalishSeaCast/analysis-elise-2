@@ -21,6 +21,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [evalExample_PSF.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/evalExample_PSF.ipynb)  
     
+* ## [evalExample_WADE_nuts.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/evalExample_WADE_nuts.ipynb)  
+    
 * ## [evalTSExample_DFOCTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/evalTSExample_DFOCTD.ipynb)  
     
 * ## [makeArianeFile.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/makeArianeFile.ipynb)  
