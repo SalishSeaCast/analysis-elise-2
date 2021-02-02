@@ -15,6 +15,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **3 Different Bloom Timing Metrics**
 
+* ## [loopAppendExample.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/loopAppendExample.ipynb)  
+    
 
 ##License
 
