@@ -23,6 +23,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [ONCFerryTurbSalTDP_201812_2015-2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AdlEvalFigs/inSituChl/ONCFerryTurbSalTDP_201812_2015-2016.ipynb)  
     
+* ## [ONCFerryTurbSalTDP_201812_2015-Example.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AdlEvalFigs/inSituChl/ONCFerryTurbSalTDP_201812_2015-Example.ipynb)  
+    
 * ## [ONCFerryTurbSalTDP_201812_2015FebJul.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AdlEvalFigs/inSituChl/ONCFerryTurbSalTDP_201812_2015FebJul.ipynb)  
     
 * ## [ONCFerryTurbTDP_201812-AllTimes_10min.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/AdlEvalFigs/inSituChl/ONCFerryTurbTDP_201812-AllTimes_10min.ipynb)  
