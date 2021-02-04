@@ -17,9 +17,11 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [Puget_WADE_Example_2009.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2009.ipynb)  
     
-* ## [Puget_WADE_Example_CTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_CTD.ipynb)  
+* ## [Puget_WADE_Example_2018-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2018-Copy1.ipynb)  
     
-* ## [Puget_WADE_Example_Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_Copy2.ipynb)  
+* ## [Puget_WADE_Example_2018.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2018.ipynb)  
+    
+* ## [Puget_WADE_Example_CTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_CTD.ipynb)  
     
 * ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Untitled.ipynb)  
     

@@ -10,8 +10,6 @@ Descriptions under the links below are from the first cell of the notebooks
     tides and winds
 
 
-* ## [NutsvsSalforGreig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NutsvsSalforGreig.ipynb)  
-    
 * ## [SusanNoCiliateRun.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/SusanNoCiliateRun.ipynb)  
     
 * ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/Untitled.ipynb)  
