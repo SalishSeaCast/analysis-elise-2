@@ -11,6 +11,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **Time series of spring phytoplankton bloom and model forcing at station S3 from Feb 15th - June 15th 2015**
 
+* ## [201812EnvironmentalDrivers.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/201812EnvironmentalDrivers.ipynb)  
+    
+* ## [201812EnvironmentalDrivers_beginning_EO.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/201812EnvironmentalDrivers_beginning_EO.ipynb)  
+    
 * ## [Bloom_Timing_Metrics.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/Bloom_Timing_Metrics.ipynb)  
     
     **3 Different Bloom Timing Metrics**
