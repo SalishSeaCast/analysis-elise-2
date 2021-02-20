@@ -21,9 +21,13 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [Puget_WADE_Example_2018.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2018.ipynb)  
     
+* ## [Puget_WADE_Example_CTD-2010.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_CTD-2010.ipynb)  
+    
 * ## [Puget_WADE_Example_CTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_CTD.ipynb)  
     
 * ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Untitled.ipynb)  
+    
+* ## [Untitled1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Untitled1.ipynb)  
     
 * ## [vET-DFO-1905-2015_2017.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-1905-2015_2017.ipynb)  
     
