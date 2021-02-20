@@ -15,10 +15,20 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [201812EnvironmentalDrivers_beginning_EO.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/201812EnvironmentalDrivers_beginning_EO.ipynb)  
     
+* ## [201905EnvironmentalDrivers.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/201905EnvironmentalDrivers.ipynb)  
+    
+    **Time Series of Phytoplankton Bloom Timing and Environmental Drivers from 2015-2019 at Station S3 (201905 model run)**
+
 * ## [Bloom_Timing_Metrics.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/Bloom_Timing_Metrics.ipynb)  
     
     **3 Different Bloom Timing Metrics**
 
+* ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/Untitled.ipynb)  
+    
+* ## [explorWindForcingFiles.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/explorWindForcingFiles.ipynb)  
+    
+* ## [loadGEMLAMWinds.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/loadGEMLAMWinds.ipynb)  
+    
 * ## [loopAppendExample.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/loopAppendExample.ipynb)  
     
 
