@@ -5,6 +5,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ## [MESZ_40mvsWC_seasonal.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/MESZ_40mvsWC_seasonal.ipynb)  
     
+* ## [ModelEqsPena.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/ModelEqsPena.ipynb)  
+    
 * ## [calcLimitationExample.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationExample.ipynb)  
     
 * ## [calcLimitationPlumeFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationPlumeFig.ipynb)  
@@ -18,6 +20,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ## [horizontalMesh.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/horizontalMesh.ipynb)  
     
 * ## [mesozooplankton-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-Copy1.ipynb)  
+    
+* ## [mesozooplankton-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-Copy2.ipynb)  
     
 * ## [mesozooplankton-newtest.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/mesozooplankton-newtest.ipynb)  
     

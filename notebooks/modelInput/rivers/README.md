@@ -13,6 +13,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [createDailyRiverBioForcing-CorrectedMW-DissSiO2Only-201906.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/rivers/createDailyRiverBioForcing-CorrectedMW-DissSiO2Only-201906.ipynb)  
     
+* ## [createDailyRiverBioForcing-CorrectedMW-DissSiO2Only-201906PugetTest.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/rivers/createDailyRiverBioForcing-CorrectedMW-DissSiO2Only-201906PugetTest.ipynb)  
+    
 * ## [createRiverTurbForcingECBuoy-201906-2009-2012.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/rivers/createRiverTurbForcingECBuoy-201906-2009-2012.ipynb)  
     
     **create hourly Fraser turbidity time series where gaps 4 hrs or less are filled by linear interpolation**
@@ -33,6 +35,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **create daily averages from hourly time series and fill larger gaps based on interpolation of daily averages**
 
+* ## [gsmooth.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/rivers/gsmooth.ipynb)  
+    
 * ## [riverForcingConsts-202101.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/rivers/riverForcingConsts-202101.ipynb)  
     
 

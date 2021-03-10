@@ -17,6 +17,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [Puget_WADE_Example_2009.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2009.ipynb)  
     
+* ## [Puget_WADE_Example_2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2015.ipynb)  
+    
 * ## [Puget_WADE_Example_2018-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2018-Copy1.ipynb)  
     
 * ## [Puget_WADE_Example_2018.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/Puget_WADE_Example_2018.ipynb)  
@@ -58,6 +60,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ## [vET-HC1905-DFO-NutChlPhys-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-Base.ipynb)  
     
 * ## [vET-HC1905-DFO-NutChlPhys-Table.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-Table.ipynb)  
+    
+* ## [vET-HC1905-DFO-NutChlPhys-test.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-NutChlPhys-test.ipynb)  
     
 * ## [vET-HC1905-DFO-newSpin.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-HC1905-DFO-newSpin.ipynb)  
     

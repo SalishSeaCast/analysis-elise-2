@@ -11,6 +11,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     A notebook which contains an evaluation of the SalishSeaCast model within PugetSound for the year 2010. More specifically, it compares observed data on various nutrient concentrations collected from bottle data and compares it to model outputs. It also looks at temperature and salinity data collected from CTD data and compares model error to these environmental variables. This evaluation includes scatter plots and 2d histograms visualizing the similarity of observed and model data as well as tables of evaluation statistics.
 
+* ## [BuoyComparisons_Egmont_Chl_et.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKeegan/BuoyComparisons_Egmont_Chl_et.ipynb)  
+    
 * ## [Pickle_Loader.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKeegan/Pickle_Loader.ipynb)  
     
     This Script only exists as a place to load up all of the pickle files files while I am busy doing other things.

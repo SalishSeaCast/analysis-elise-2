@@ -9,6 +9,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [PugetSoundZoop.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/PugetSoundZoop.ipynb)  
     
+* ## [PugetSoundZoopMar3.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/PugetSoundZoopMar3.ipynb)  
+    
 * ## [plotModelOutputExamples.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plotModelOutputExamples.ipynb)  
     
 * ## [plotPugetStations.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plotPugetStations.ipynb)  

@@ -35,3 +35,4 @@ dependencies:
 # conda activate py38
 # pip install --user --editable /data/eolson/results/MEOPAR/tools/SalishSeaTools
 # python -m ipykernel install --user --name py38 --display-name "Python (py38)"
+# conda install -c conda-forge basemap-data-hires
