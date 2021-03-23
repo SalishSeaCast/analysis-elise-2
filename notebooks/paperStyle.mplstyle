@@ -1,0 +1,14 @@
+figure.titlesize : 16
+figure.dpi : 200
+axes.titlesize : 16
+axes.labelsize : 16
+xtick.labelsize : 16
+ytick.labelsize : 16
+legend.fontsize : 16
+legend.numpoints : 1
+lines.linewidth : 1
+lines.markersize : 10
+font.size : 16
+font.family : sans-serif 
+font.style : normal
+# save at half resolution and double figure size

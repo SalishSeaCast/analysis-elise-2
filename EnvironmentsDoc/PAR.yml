@@ -1,4 +1,4 @@
-name: py39
+name: PAR
 channels:
  - conda-forge
 dependencies:
@@ -35,7 +35,8 @@ dependencies:
  - tqdm
  - graphviz
  - pip
-# conda env create -f py39.yml
-# conda activate py39
+# conda env create -f PAR.yml
+# conda activate PAR
 # pip install --user --editable /data/eolson/results/MEOPAR/tools/SalishSeaTools
-# python -m ipykernel install --user --name py39 --display-name "Python (py39)"
+# pip install --user --editable /ocean/eolson/MEOPAR/TPARCalcs/TPAR
+# python -m ipykernel install --user --name PAR --display-name "Python (PAR)"
