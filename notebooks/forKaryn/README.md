@@ -11,6 +11,14 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [PugetSoundZoopMar3.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/PugetSoundZoopMar3.ipynb)  
     
+* ## [SoGZoopvsModel_NewBiomass.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SoGZoopvsModel_NewBiomass.ipynb)  
+    
+* ## [SoGZoopvsModel_NewBiomass18Mar21-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SoGZoopvsModel_NewBiomass18Mar21-Copy1.ipynb)  
+    
+* ## [SoGZoopvsModel_NewBiomass18Mar21-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SoGZoopvsModel_NewBiomass18Mar21-Copy2.ipynb)  
+    
+* ## [SoGZoopvsModel_NewBiomass18Mar21.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SoGZoopvsModel_NewBiomass18Mar21.ipynb)  
+    
 * ## [plotModelOutputExamples.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plotModelOutputExamples.ipynb)  
     
 * ## [plotPugetStations.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plotPugetStations.ipynb)  

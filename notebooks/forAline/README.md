@@ -39,6 +39,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [loopAppendExample.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/loopAppendExample.ipynb)  
     
+* ## [multCorrViz.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/multCorrViz.ipynb)  
+    
 
 ##License
 

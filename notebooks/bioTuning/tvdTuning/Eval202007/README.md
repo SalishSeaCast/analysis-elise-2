@@ -15,6 +15,12 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [eval-PSF-2021testRuns-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/Eval202007/eval-PSF-2021testRuns-Base.ipynb)  
     
+* ## [eval-WADEPuget-2021testRuns-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/Eval202007/eval-WADEPuget-2021testRuns-Base.ipynb)  
+    
+* ## [eval-WADEPuget-2021testRuns-PugBSi.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/Eval202007/eval-WADEPuget-2021testRuns-PugBSi.ipynb)  
+    
+* ## [eval-WADEPuget-2021testRuns-PugSi.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/Eval202007/eval-WADEPuget-2021testRuns-PugSi.ipynb)  
+    
 
 ##License
 
