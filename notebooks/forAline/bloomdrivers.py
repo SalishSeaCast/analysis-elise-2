@@ -9,23 +9,59 @@ import xarray as xr
 import pandas as pd
 import pickle
 import os
-
+import gsw
 
 # Extracting winds from the correct path
-def getWindVarsYear(year):
+def getWindVarsYear(year,loc):
+    ''' Given a year, returns the correct directory and nam_fmt for wind forcing as well as the
+        location of S3 on the corresponding grid.
+            Parameters:
+                    year: a year value in integer form 
+                    loc: the location name as a string. Eg. loc='S3'
+            Returns:
+                    jW: y-coordinate for the location
+                    iW: x-coordinate for the location
+                opsdir: path to directory where wind forcing file is stored
+               nam_fmt: naming convention of the appropriate files
+    '''
     if year>2014:
         opsdir='/results/forcing/atmospheric/GEM2.5/operational/'
         nam_fmt='ops'
-        jW,iW=places.PLACES['S3']['GEM2.5 grid ji']
+        jW,iW=places.PLACES[loc]['GEM2.5 grid ji']
     else:
         opsdir='/data/eolson/results/MEOPAR/GEMLAM/'
         nam_fmt='gemlam'
-        jW=135
-        iW=145
+        with xr.open_dataset('/results/forcing/atmospheric/GEM2.5/gemlam/gemlam_y2012m03d01.nc') as gridrefWind
+            # always use a post-2011 file here to identify station grid location
+            lon,lat=places.PLACES[loc]['lon lat']
+            jW,iW=geo_tools.find_closest_model_point(lon,lat,
+                    gridrefWind.variables['nav_lon'][:,:]-360,gridrefWind.variables['nav_lat'][:,:],
+                    grid='GEM2.5')
+                    # the -360 is needed because longitudes in this case are reported in postive degrees East
+
     return jW,iW,opsdir,nam_fmt
 
 # Metric 1:
 def metric1_bloomtime(phyto_alld,no3_alld,bio_time):
+    ''' Given datetime array and two 2D arrays of phytoplankton and nitrate concentrations, over time
+        and depth, returns a datetime value of the spring phytoplankton bloom date according to the 
+        following definition (now called 'metric 1'):
+            
+            'The spring bloom date is the peak phytoplankton concentration  (averaged from the surface to 
+            3 m depth)  within four days of the average upper 3 m nitrate concentration going below 0.5 uM 
+            (the half-saturation concentration) for two consecutive days'
+            EDIT: 0.5 uM was changed to 2.0 uM to yield more accurate results
+            
+            Parameters:
+                    phyto_alld: 2D array of phytoplankton concentrations (in uM N) over all depths and time 
+                                range of 'bio_time'
+                      no3_alld: 2D array of nitrate concentrations (in uM N) over all depths and time 
+                                range of 'bio_time'
+                      bio_time: 1D datetime array of the same time frame as phyto_alld and no3_alld
+            Returns:
+                    bloomtime1: the spring bloom date as a single datetime value
+        
+    '''
     # a) get avg phytplankton in upper 3m
     phyto_alld_df=pd.DataFrame(phyto_alld)
     upper_3m_phyto=pd.DataFrame(phyto_alld_df[[0,1,2,3]].mean(axis=1))
@@ -64,6 +100,22 @@ def metric1_bloomtime(phyto_alld,no3_alld,bio_time):
 
 # Metric 2: 
 def metric2_bloomtime(sphyto,sno3,bio_time):
+    ''' Given datetime array and two 1D arrays of surface phytplankton and nitrate concentrations 
+        over time, returns a datetime value of the spring phytoplankton bloom date according to the 
+        following definition (now called 'metric 2'):
+            
+            'The first peak in which chlorophyll concentrations are above 5 ug/L for more than two days'
+            
+            Parameters:
+                    sphyto: 1D array of phytoplankton concentrations (in uM N) over time 
+                                range of 'bio_time'
+                      sno3: 1D array of nitrate concentrations (in uM N) over time 
+                                range of 'bio_time'
+                  bio_time: 1D datetime array of the same time frame as sphyto and sno3
+            Returns:
+                    bloomtime2: the spring bloom date as a single datetime value
+        
+    '''
     
     df = pd.DataFrame({'bio_time':bio_time, 'sphyto':sphyto, 'sno3':sno3})
 
@@ -90,6 +142,25 @@ def metric2_bloomtime(sphyto,sno3,bio_time):
 
 # Metric 3: 
 def metric3_bloomtime(sphyto,sno3,bio_time):
+    ''' Given datetime array and two 1D arrays of surface phytplankton and nitrate concentrations 
+        over time, returns a datetime value of the spring phytoplankton bloom date according to the 
+        following definition (now called 'metric 3'):
+            
+            'The median + 5% of the annual Chl concentration is deemed “threshold value” for each year. 
+            For a given year, bloom initiation is determined to be the week that first reaches the 
+            threshold value (by looking at weekly averages) as long as one of the two following weeks 
+            was >70% of the threshold value'
+            
+            Parameters:
+                    sphyto: 1D array of phytoplankton concentrations (in uM N) over time 
+                                range of 'bio_time'
+                      sno3: 1D array of nitrate concentrations (in uM N) over time 
+                                range of 'bio_time'
+                  bio_time: 1D datetime array of the same time frame as sphyto and sno3
+            Returns:
+                    bloomtime3: the spring bloom date as a single datetime value
+        
+    '''
     # 1) determine threshold value    
     df = pd.DataFrame({'bio_time':bio_time, 'sphyto':sphyto, 'sno3':sno3})   
     
@@ -119,157 +190,85 @@ def metric3_bloomtime(sphyto,sno3,bio_time):
 
     return bloomtime3
 
-# wind speed cubed
-def janfebmar_wspeed3(twind,wspeed):
-    dfwind=pd.DataFrame({'twind':twind, 'wspeed':wspeed})
-    monthlyws=pd.DataFrame(dfwind.resample('M', on='twind').wspeed.mean())
-    monthlyws.reset_index(inplace=True)
-    jan_ws3=(monthlyws.iloc[0]['wspeed'])**3
-    feb_ws3=(monthlyws.iloc[1]['wspeed'])**3
-    mar_ws3=(monthlyws.iloc[2]['wspeed'])**3
-    return jan_ws3, feb_ws3, mar_ws3
+# Surface monthly average calculation given 2D array with depth and time:
+def D2_3monthly_avg(time,x):
+     
+    ''' Given datetime array of 3 months and a 2D array of variable x, over time
+        and depth, returns an array containing the 3 monthly averages of the 
+        surface values of variable x
+           
+           Parameters:
+                    time: datetime array of each day starting from the 1st day 
+                          of the first month, ending on the last day of the third month
+                       x: 2-dimensional numpy array containing daily averages of the 
+                           same length and time frame as 'time', and depth profile
+            Returns:
+                    jan_x, feb_x, mar_x: monthly averages of variable x at surface
+    '''
+    
+    depthx=pd.DataFrame(x)
+    surfacex=np.array(depthx[[0]]).flatten()
+    df=pd.DataFrame({'time':time, 'x':surfacex})
+    monthlyx=pd.DataFrame(df.resample('M', on='time').x.mean())
+    monthlyx.reset_index(inplace=True)
+    jan_x=monthlyx.iloc[0]['x']
+    feb_x=monthlyx.iloc[1]['x']
+    mar_x=monthlyx.iloc[2]['x']
+    return jan_x, feb_x, mar_x
 
-# surface irradiance:
-def janfebmar_irradiance(twind,solar):
-    dfsolar=pd.DataFrame({'twind':twind, 'solar':solar})
-    monthlysolar=pd.DataFrame(dfsolar.resample('M', on='twind').solar.mean())
-    monthlysolar.reset_index(inplace=True)
-    jan_solar=monthlysolar.iloc[0]['solar']
-    feb_solar=monthlysolar.iloc[1]['solar']
-    mar_solar=monthlysolar.iloc[2]['solar']
-    return jan_solar, feb_solar, mar_solar
 
-# surface PAR:
-def janfebmar_spar(bio_time,spar):
-    dfspar=pd.DataFrame({'bio_time':bio_time, 'spar':spar})
-    monthlyspar=pd.DataFrame(dfspar.resample('M', on='bio_time').spar.mean())
-    monthlyspar.reset_index(inplace=True)
-    jan_spar=monthlyspar.iloc[0]['spar']
-    feb_spar=monthlyspar.iloc[1]['spar']
-    mar_spar=monthlyspar.iloc[2]['spar']
-    return jan_spar, feb_spar, mar_spar
-
-#surface temperature:
-def janfebmar_temp(grid_time,temp):
-    dftemp=pd.DataFrame({'grid_time':grid_time, 'temp':temp})
-    monthlytemp=pd.DataFrame(dftemp.resample('M', on='grid_time').temp.mean())
-    monthlytemp.reset_index(inplace=True)
-    jan_temp=monthlytemp.iloc[0]['temp']
-    feb_temp=monthlytemp.iloc[1]['temp']
-    mar_temp=monthlytemp.iloc[2]['temp']
-    return jan_temp, feb_temp, mar_temp
-
-# surface salinity:
-def janfebmar_temp(grid_time,salinity):
-    dfsal=pd.DataFrame({'grid_time':grid_time, 'sal':salinity})
-    monthlysal=pd.DataFrame(dfsal.resample('M', on='grid_time').sal.mean())
-    monthlysal.reset_index(inplace=True)
-    jan_sal=monthlysal.iloc[0]['sal']
-    feb_sal=monthlysal.iloc[1]['sal']
-    mar_sal=monthlysal.iloc[2]['sal']
-    return jan_sal, feb_sal, mar_sal
-
-# Fraser river flow:
-def janfebmar_fraserflow(riv_time,rivFlow):
-    dfrivFlow=pd.DataFrame({'riv_time':riv_time, 'rivFlow':rivFlow})
-    dfrivFlow["riv_time"] = pd.to_datetime(dfrivFlow["riv_time"])
-    monthlyrivFlow=pd.DataFrame(dfrivFlow.resample('M', on='riv_time').rivFlow.mean())
-    monthlyrivFlow.reset_index(inplace=True)
-    jan_rivFlow=monthlyrivFlow.iloc[0]['rivFlow']
-    feb_rivFlow=monthlyrivFlow.iloc[1]['rivFlow']
-    mar_rivFlow=monthlyrivFlow.iloc[2]['rivFlow']
-    return jan_rivFlow, feb_rivFlow, mar_rivFlow
-
-# surface zooplankton concentration:
-def janfebmar_zooplankton(bio_time,zoop_alld):
-    dzoop=pd.DataFrame(zoop_alld)
-    szoop=np.array(dzoop[[0]]).flatten()
-    dfzoop=pd.DataFrame({'bio_time':bio_time, 'zoop':szoop})
-    monthlyzoop=pd.DataFrame(dfzoop.resample('M', on='bio_time').zoop.mean())
-    monthlyzoop.reset_index(inplace=True)
-    jan_zoop=monthlyzoop.iloc[0]['zoop']
-    feb_zoop=monthlyzoop.iloc[1]['zoop']
-    mar_zoop=monthlyzoop.iloc[2]['zoop']
-    return jan_zoop, feb_zoop, mar_zoop
-
-# surface mesozooplankton concentration:
-def janfebmar_mesozooplankton(bio_time,mesozoo_alld):
-    dzoop=pd.DataFrame(mesozoo_alld)
-    szoop=np.array(dzoop[[0]]).flatten()
-    dfzoop=pd.DataFrame({'bio_time':bio_time, 'zoop':szoop})
-    monthlyzoop=pd.DataFrame(dfzoop.resample('M', on='bio_time').zoop.mean())
-    monthlyzoop.reset_index(inplace=True)
-    jan_zoop=monthlyzoop.iloc[0]['zoop']
-    feb_zoop=monthlyzoop.iloc[1]['zoop']
-    mar_zoop=monthlyzoop.iloc[2]['zoop']
-    return jan_zoop, feb_zoop, mar_zoop
-
-# surface microzooplankton concentration:
-def janfebmar_microzooplankton(bio_time,microzoo_alld):
-    dzoop=pd.DataFrame(microzoo_alld)
-    szoop=np.array(dzoop[[0]]).flatten()
-    dfzoop=pd.DataFrame({'bio_time':bio_time, 'zoop':szoop})
-    monthlyzoop=pd.DataFrame(dfzoop.resample('M', on='bio_time').zoop.mean())
-    monthlyzoop.reset_index(inplace=True)
-    jan_zoop=monthlyzoop.iloc[0]['zoop']
-    feb_zoop=monthlyzoop.iloc[1]['zoop']
-    mar_zoop=monthlyzoop.iloc[2]['zoop']
-    return jan_zoop, feb_zoop, mar_zoop
-
-# depth integrated zooplankton concentration:
-def janfebmar_depth_intzoop(bio_time,intzoop):
-    dfzoop=pd.DataFrame({'bio_time':bio_time, 'intzoop':intzoop})
-    monthlyzoop=pd.DataFrame(dfzoop.resample('M', on='bio_time').intzoop.mean())
-    monthlyzoop.reset_index(inplace=True)
-    jan_zoop=monthlyzoop.iloc[0]['intzoop']
-    feb_zoop=monthlyzoop.iloc[1]['intzoop']
-    mar_zoop=monthlyzoop.iloc[2]['intzoop']
-    return jan_zoop, feb_zoop, mar_zoop
-
-# depth integrated mesozooplankton concentration:
-def janfebmar_depth_intmesozoop(bio_time,intmesoz):
-    dfzoop=pd.DataFrame({'bio_time':bio_time, 'intmesoz':intmesoz})
-    monthlyzoop=pd.DataFrame(dfzoop.resample('M', on='bio_time').intmesoz.mean())
-    monthlyzoop.reset_index(inplace=True)
-    jan_zoop=monthlyzoop.iloc[0]['intmesoz']
-    feb_zoop=monthlyzoop.iloc[1]['intmesoz']
-    mar_zoop=monthlyzoop.iloc[2]['intmesoz']
-    return jan_zoop, feb_zoop, mar_zoop
-
-# depth integrated microzooplankton concentration:
-def janfebmar_depth_intmicrozoop(bio_time,intmicroz):
-    dfzoop=pd.DataFrame({'bio_time':bio_time, 'intmicroz':intmicroz})
-    monthlyzoop=pd.DataFrame(dfzoop.resample('M', on='bio_time').intmicroz.mean())
-    monthlyzoop.reset_index(inplace=True)
-    jan_zoop=monthlyzoop.iloc[0]['intmicroz']
-    feb_zoop=monthlyzoop.iloc[1]['intmicroz']
-    mar_zoop=monthlyzoop.iloc[2]['intmicroz']
-    return jan_zoop, feb_zoop, mar_zoop
 
 # mid depth nitrate (30-90m):
-def janfebmar_mid_depth_no3(bio_time,no3_30to90m):
-    dfno3=pd.DataFrame({'bio_time':bio_time, 'no3_30to90m':no3_30to90m})
-    monthlyno3=pd.DataFrame(dfno3.resample('M', on='bio_time').no3_30to90m.mean())
-    monthlyno3.reset_index(inplace=True)
-    jan_no3=monthlyno3.iloc[0]['no3_30to90m']
-    feb_no3=monthlyno3.iloc[1]['no3_30to90m']
-    mar_no3=monthlyno3.iloc[2]['no3_30to90m']
-    return jan_no3, feb_no3, mar_no3
+def D1_3monthly_avg(time,x):
+   
+    ''' Given datetime array of 3 months and a 1D array of variable x with time,
+        returns an array containing the 3 monthly averages of the variable x
+           
+           Parameters:
+                    time: datetime array of each day starting from the 1st day 
+                          of the first month, ending on the last day of the third month
+                       x: 1-dimensional numpy array containing daily averages of the 
+                           same length and time frame as 'time'
+            Returns:
+                    jan_x, feb_x, mar_x: monthly averages of variable x
+    '''
+    
+    df=pd.DataFrame({'time':time, 'x':x})
+    monthlyx=pd.DataFrame(df.resample('M', on='time').x.mean())
+    monthlyx.reset_index(inplace=True)
+    jan_x=monthlyx.iloc[0]['x']
+    feb_x=monthlyx.iloc[1]['x']
+    mar_x=monthlyx.iloc[2]['x']
+    return jan_x, feb_x, mar_x
 
-# deep no3 in entire SoG (past 250m):
-def janfebmar_deepno3(riv_time,no3_past250m):
-    dfdeepno3=pd.DataFrame({'riv_time':riv_time, 'no3_past250m':no3_past250m})
-    dfdeepno3["riv_time"] = pd.to_datetime(dfdeepno3["riv_time"])
-    monthlydeepno3=pd.DataFrame(dfdeepno3.resample('M',on='riv_time').no3_past250m.mean())
-    monthlydeepno3.reset_index(inplace=True)
-    jan_deepno3=monthlydeepno3.iloc[0]['no3_past250m']
-    feb_deepno3=monthlydeepno3.iloc[1]['no3_past250m']
-    mar_deepno3=monthlydeepno3.iloc[2]['no3_past250m']
-    return jan_deepno3, feb_deepno3, mar_deepno3
+# Monthly average calculation given 1D array and non-datetime :
+def D1_3monthly_avg2(time,x):
+    
+    ''' Given non-datetime array of 3 months and a 1D array of variable x with time,
+        returns an array containing the 3 monthly averages of the variable x
+           
+           Parameters:
+                    time: non-datetime array of each day starting from the 1st day 
+                          of the first month, ending on the last day of the third month
+                       x: 1-dimensional numpy array containing daily averages of the 
+                          same length and time frame as 'time'
+            Returns:
+                    jan_x, feb_x, mar_x: monthly averages of variable x
+    '''
+    
+    
+    df=pd.DataFrame({'time':time, 'x':x})
+    df["time"] = pd.to_datetime(df["time"])
+    monthlyx=pd.DataFrame(df.resample('M',on='time').x.mean())
+    monthlyx.reset_index(inplace=True)
+    jan_x=monthlyx.iloc[0]['x']
+    feb_x=monthlyx.iloc[1]['x']
+    mar_x=monthlyx.iloc[2]['x']
+    return jan_x, feb_x, mar_x
 
 def halo_de(ncname,ts_x,ts_y):
     
-    ''' given a path to a SalishSeaCast netcdf file and an x, y pair, 
+    ''' Given a path to a SalishSeaCast netcdf file and an x, y pair, 
         returns halocline depth, where halocline depth is defined a midway between 
         two cells that have the largest salinity gradient
         ie max abs((sal1-sal2)/(depth1-depth2))
@@ -322,18 +321,24 @@ def halo_de(ncname,ts_x,ts_y):
     
     return halocline
 
-# halocline time series:
-def janfebmar_halocline(bio_time,halocline):
-    dfhalo=pd.DataFrame({'bio_time':bio_time, 'halo':halocline})
-    monthlyhalo=pd.DataFrame(dfhalo.resample('M', on='bio_time').halo.mean())
-    monthlyhalo.reset_index(inplace=True)
-    jan_halo=monthlyhalo.iloc[0]['halo']
-    feb_halo=monthlyhalo.iloc[1]['halo']
-    mar_halo=monthlyhalo.iloc[2]['halo']
-    return jan_halo, feb_halo, mar_halo
 
 # regression line and r2 value for plots
 def reg_r2(driver,bloomdate):
+    
+    '''Given two arrays of the same length, returns linear regression best 
+       fit line and r-squared value.
+        
+            Parameters:
+                    driver: 1D array of the independent (predictor) variable
+                 bloomdate: 1D array of the dependent (response) variable, the 
+                            same length as "driver"     
+            Returns:
+                    y: y-coordinates of best fit line
+                   r2: r-squared value of regression fit
+                    m: slope of line
+                    c: y-intercepth of line
+    '''
+    
     A = np.vstack([driver, np.ones(len(driver))]).T
     m, c = np.linalg.lstsq(A, bloomdate,rcond=None)[0]
     m=round(m,3)
@@ -342,3 +347,137 @@ def reg_r2(driver,bloomdate):
     model, resid = np.linalg.lstsq(A, bloomdate,rcond=None)[:2]
     r2 = 1 - resid / (len(bloomdate) * np.var(bloomdate))
     return y, r2, m, c
+
+# depth of turbocline
+def turbo(eddy,time,depth):
+    '''Given a datetime array of 3 months, a depth array, and 2D array of eddy 
+        diffusivity over time and depth, returns the average turbocline depth 
+        for each of the three months. Turbocline depth is defined here as the depth 
+        before the depth at which eddy diffusivity reaches a value of 0.001 m^2/s
+        
+            Parameters: 
+                    eddy: 2-dimensional numpy array containing daily averaged eddy diffusivity
+                            of the same time frame as 'time', and over depth 
+                    time: datetime array of each day starting from the 1st day 
+                          of the first month, ending on the last day of the third month
+                   depth: depth array from grid_T 
+            Returns: 
+                 jan_turbo: average turbocline depth of the first month (single value)
+                 feb_turbo: average turbocline depth of the second month (single value)
+                 mar_turbo: average turbocline depth of the third month (single value)
+    '''
+    turbo=list()
+    for day in eddy: 
+        dfed=pd.DataFrame({'depth':depth[:-1], 'eddy':day[1:]}) 
+        dfed=dfed.iloc[1:] # dropping surface values
+        dfed[:21] #keep top 21 (25m depth)
+        for i, row in dfed.iterrows():
+            try:
+                if row['eddy']<0.001:
+                    turbo.append(dfed.at[i,'depth'])
+                    break
+            except IndexError:
+                turbo.append(np.nan)
+                print('turbocline depth not found')
+    dfturbo=pd.DataFrame({'time':time, 'turbo':turbo})
+    monthlyturbo=pd.DataFrame(dfturbo.resample('M', on='time').turbo.mean())
+    monthlyturbo.reset_index(inplace=True)
+    jan_turbo=monthlyturbo.iloc[0]['turbo']
+    feb_turbo=monthlyturbo.iloc[1]['turbo']
+    mar_turbo=monthlyturbo.iloc[2]['turbo']
+    return jan_turbo, feb_turbo, mar_turbo
+
+def density_diff(sal,temp,time):
+    
+    '''Given a datetime array of 3 months, a 2D array of salinity over time and depth, 
+       a 2D array of temperature over time and depth, returns the difference in density
+       from the surface to a series of depths averaged over each month for 3 months
+        
+            Parameters: 
+                    sal: 2-dimensional numpy array containing daily averaged salinity
+                         of the same time frame as 'time', and over depth 
+                   temp: 2-dimensional numpy array containing daily averaged temperature
+                         of the same time frame as 'time', and over depth 
+                    time: datetime array of each day starting from the 1st day 
+                          of the first month, ending on the last day of the third month
+                   
+            Returns: 
+                 density_diffs: a dictionary containing a description as a string and the
+                                density difference from the surface to some depth (the depth
+                                range is 5m to 30m, in increments of 5m)
+                                Eg. 'Jan 5m': somevalue
+                                    describes that the numerical value on the right (somevalue) 
+                                    is the density difference from the surface to 5m depth, averaged
+                                    over the first month
+    '''
+    p=0
+    depthrange={5:5,10:10,15:15,19:20,20:25,21:30}
+    density_diffs=dict()
+    for ind,depth in depthrange.items():
+        dsal=pd.DataFrame(sal)
+        dtemp=pd.DataFrame(temp)
+      
+        surfacedens=gsw.rho(dsal.iloc[:,0],dtemp.iloc[:,0],p)  # get the surface density
+        idens=gsw.rho(dsal.iloc[:,ind],dtemp.iloc[:,ind],p)  # get the density at that depth
+        densdiff=idens-surfacedens                               # get the daily density difference
+        
+        df=pd.DataFrame({'time':time, 'densdiff':densdiff})  
+        monthlydiff=pd.DataFrame(df.resample('M', on='time').densdiff.mean()) # average over months
+        monthlydiff.reset_index(inplace=True)
+        density_diffs[f'Jan {depth}m']=monthlydiff.iloc[0]['densdiff']
+        density_diffs[f'Feb {depth}m']=monthlydiff.iloc[1]['densdiff']
+        density_diffs[f'Mar {depth}m']=monthlydiff.iloc[2]['densdiff']
+    return density_diffs
+
+
+def avg_eddy(eddy,time,ij,ii):
+    
+    '''Given a 2D array of eddy diffusivity over time and depth, a datetime array of 3 months,
+        the x and y coordinates of the location of interest, returns the average eddy diffusivity 
+        over the upper 15 and 30, each averaged over every month
+        
+            Parameters: 
+                    eddy: 2-dimensional numpy array containing daily averaged eddy diffusivity
+                            of the same time frame as 'time', and over depth 
+                    time: datetime array of each day starting from the 1st day 
+                          of the first month, ending on the last day of the third month
+                      ij: y-coordinate for location 
+                      ii: x-coordinate for location
+            Returns: 
+                 jan_eddyk1: average eddy diffusivity over upper 15m, averaged over the first month
+                 feb_eddyk1: average eddy diffusivity over upper 15m, averaged over the second month
+                 mar_eddyk1: average eddy diffusivity over upper 15m, averaged over the third month
+                 jan_eddyk2: average eddy diffusivity over upper 30m, averaged over the first month
+                 feb_eddyk2: average eddy diffusivity over upper 30m, averaged over the second month
+                 mar_eddyk2: average eddy diffusivity over upper 30m, averaged over the third month
+    '''
+    
+    k1=15 # 15m depth is index 15 (actual value is 15.096255)
+    k2=22 # 30m depth is index 22 (actual value is 31.101034)
+    with xr.open_dataset('/data/vdo/MEOPAR/NEMO-forcing/grid/mesh_mask201702.nc') as mesh:
+            tmask=np.array(mesh.tmask[0,:,ij,ii])
+            e3t_0=np.array(mesh.e3t_0[0,:,ij,ii])
+            e3t_k1=np.array(mesh.e3t_0[:,k1,ij,ii])
+            e3t_k2=np.array(mesh.e3t_0[:,k1,ij,ii])
+    # vertical sum of microzo in mmol/m3 * vertical grid thickness in m:
+    inteddy=list()
+    avgeddyk1=list()
+    avgeddyk2=list()
+    for dailyeddy in eddy:
+        eddy_tgrid=(dailyeddy[1:]+dailyeddy[:-1])
+        eddy_e3t=eddy_tgrid*e3t_0[:-1]
+        avgeddyk1.append(np.sum(eddy_e3t[:k1]*tmask[:k1])/np.sum(e3t_0[:k1]))
+        avgeddyk2.append(np.sum(eddy_e3t[:k2]*tmask[:k2])/np.sum(e3t_0[:k2]))
+
+    df=pd.DataFrame({'time':time, 'eddyk1':avgeddyk1,'eddyk2':avgeddyk2})
+    monthlyeddyk1=pd.DataFrame(df.resample('M', on='time').eddyk1.mean())
+    monthlyeddyk2=pd.DataFrame(df.resample('M', on='time').eddyk2.mean())
+    monthlyeddyk1.reset_index(inplace=True)
+    monthlyeddyk2.reset_index(inplace=True)
+    jan_eddyk1=monthlyeddyk1.iloc[0]['eddyk1']
+    feb_eddyk1=monthlyeddyk1.iloc[1]['eddyk1']
+    mar_eddyk1=monthlyeddyk1.iloc[2]['eddyk1']
+    jan_eddyk2=monthlyeddyk2.iloc[0]['eddyk2']
+    feb_eddyk2=monthlyeddyk2.iloc[1]['eddyk2']
+    mar_eddyk2=monthlyeddyk2.iloc[2]['eddyk2']
+    return jan_eddyk1, feb_eddyk1, mar_eddyk1,jan_eddyk2,feb_eddyk2,mar_eddyk2
