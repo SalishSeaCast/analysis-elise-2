@@ -23,6 +23,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **Time Series of Phytoplankton Bloom Timing and Environmental Drivers from 2015-2019 at Station S3 (201905 model run)**
 
+* ## [201905EnvironmentalDrivers_QU39.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/201905EnvironmentalDrivers_QU39.ipynb)  
+    
+    **Time Series of Phytoplankton Bloom Timing and Environmental Drivers from 2007-2020 at Station QU39 (201905 model run)**
+
 * ## [201905analysis.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/201905analysis.ipynb)  
     
     **Station S3 analysis**
@@ -31,7 +35,11 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **3 Different Bloom Timing Metrics**
 
+* ## [QU39.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/QU39.ipynb)  
+    
 * ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/Untitled.ipynb)  
+    
+* ## [Untitled1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/Untitled1.ipynb)  
     
 * ## [explorWindForcingFiles.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/explorWindForcingFiles.ipynb)  
     

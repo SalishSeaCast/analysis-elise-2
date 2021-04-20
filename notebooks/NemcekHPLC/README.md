@@ -77,6 +77,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [compHPLCModelFirstLook-Regress-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-Base.ipynb)  
     
+* ## [figEGU2021.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/figEGU2021.ipynb)  
+    
 * ## [overview2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/overview2015.ipynb)  
     
 

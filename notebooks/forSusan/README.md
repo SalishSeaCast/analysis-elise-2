@@ -21,6 +21,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [loadHPLCNewALLO_forSusan.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forSusan/loadHPLCNewALLO_forSusan.ipynb)  
     
+* ## [loadPSFCTD.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forSusan/loadPSFCTD.ipynb)  
+    
 
 ##License
 

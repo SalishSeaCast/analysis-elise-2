@@ -35,13 +35,9 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison HC201905**
 
-* ## [vET-DFO-bottle-HC1905-forTereza.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-bottle-HC1905-forTereza.ipynb)  
+* ## [vET-DFO-202007-2015_2017.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-202007-2015_2017.ipynb)  
     
-    **DFO Nutrient Comparison**
-
-* ## [vET-DFO-paperFig-HC1905-byCluster.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-paperFig-HC1905-byCluster.ipynb)  
-    
-    **DFO Nutrient Comparison**
+    **DFO Nutrient Comparison HC201905**
 
 * ## [vET-DFO-paperFig-HC1905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/HC1905-varvar/vET-DFO-paperFig-HC1905.ipynb)  
     

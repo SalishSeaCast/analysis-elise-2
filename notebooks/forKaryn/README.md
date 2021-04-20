@@ -17,6 +17,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [SoGZoopvsModel_NewBiomass18Mar21-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SoGZoopvsModel_NewBiomass18Mar21-Copy2.ipynb)  
     
+* ## [SoGZoopvsModel_NewBiomass18Mar21-Copy3.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SoGZoopvsModel_NewBiomass18Mar21-Copy3.ipynb)  
+    
 * ## [SoGZoopvsModel_NewBiomass18Mar21.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SoGZoopvsModel_NewBiomass18Mar21.ipynb)  
     
 * ## [plotModelOutputExamples.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/plotModelOutputExamples.ipynb)  

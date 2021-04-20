@@ -5,6 +5,14 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ## [VEDatBaseEuphoticZone.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/VEDatBaseEuphoticZone.ipynb)  
     
+* ## [vET-DFO-bottle-HC1905-forTereza.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/vET-DFO-bottle-HC1905-forTereza.ipynb)  
+    
+    **DFO Nutrient Comparison**
+
+* ## [vET-DFO-paperFig-HC1905-byCluster.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/vET-DFO-paperFig-HC1905-byCluster.ipynb)  
+    
+    **DFO Nutrient Comparison**
+
 
 ##License
 
