@@ -35,6 +35,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **3 Different Bloom Timing Metrics**
 
+* ## [MapForPaper.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/MapForPaper.ipynb)  
+    
 * ## [QU39.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/QU39.ipynb)  
     
 * ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/Untitled.ipynb)  
