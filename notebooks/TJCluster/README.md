@@ -7,6 +7,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [VickysLimitationsAlongThalweg2016_w_NLim.NO.NH.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/VickysLimitationsAlongThalweg2016_w_NLim.NO.NH.ipynb)  
     
+* ## [loadDFOFluor.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/loadDFOFluor.ipynb)  
+    
 * ## [vET-DFO-bottle-HC1905-forTereza.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/vET-DFO-bottle-HC1905-forTereza.ipynb)  
     
     **DFO Nutrient Comparison**

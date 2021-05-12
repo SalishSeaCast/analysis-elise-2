@@ -37,11 +37,15 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ## [MapForPaper.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/MapForPaper.ipynb)  
     
+* ## [QU39-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/QU39-Copy1.ipynb)  
+    
 * ## [QU39.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/QU39.ipynb)  
     
 * ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/Untitled.ipynb)  
     
 * ## [Untitled1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/Untitled1.ipynb)  
+    
+* ## [WindMarCheckQU39S3.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/WindMarCheckQU39S3.ipynb)  
     
 * ## [explorWindForcingFiles.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forAline/explorWindForcingFiles.ipynb)  
     

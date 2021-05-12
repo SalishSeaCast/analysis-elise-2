@@ -35,7 +35,13 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [checkSiBalance_various.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiBalance_various.ipynb)  
     
-* ## [checkSiNBalance_HC1905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_HC1905.ipynb)  
+* ## [checkSiNBalance_201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_201905.ipynb)  
+    
+* ## [checkSiNBalance_202007F-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_202007F-Copy1.ipynb)  
+    
+* ## [checkSiNBalance_202007F-CopyFor1905recalc.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_202007F-CopyFor1905recalc.ipynb)  
+    
+* ## [checkSiNBalance_202007F.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_202007F.ipynb)  
     
 * ## [checkSiNBalance_HC201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_HC201812.ipynb)  
     
@@ -54,6 +60,16 @@ Descriptions under the links below are from the first cell of the notebooks
 * ## [checkSiNBalance_spinup201905_newSpinY2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905_newSpinY2.ipynb)  
     
 * ## [checkSiNBalance_spinup201905yr1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_spinup201905yr1.ipynb)  
+    
+* ## [extractStationsNSi.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/extractStationsNSi.ipynb)  
+    
+* ## [tvdTestInstability_SSCVals.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/tvdTestInstability_SSCVals.ipynb)  
+    
+* ## [tvdTestInstability_TestVals-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/tvdTestInstability_TestVals-Copy1.ipynb)  
+    
+* ## [tvdTestInstability_TestVals-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/tvdTestInstability_TestVals-Copy2.ipynb)  
+    
+* ## [tvdTestInstability_TestVals.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/tvdTestInstability_TestVals.ipynb)  
     
 
 ##License

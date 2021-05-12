@@ -11,7 +11,21 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Episodic nitrate supply to the surface waters of the northwestern Strait of Georgia; evident as a region of elevated mean (March-November) and standard deviation (April-September) of surface nitrate stretching from Discovery Passage to Baynes Sound in a monthly climatology based on simulations from fall 2014 to present.
 
+* ## [eval-DFO-EGU-201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/eval-DFO-EGU-201812.ipynb)  
+    
+    **DFO Nutrient Comparison HC201812**
+
+* ## [eval-DFO-EGU-201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/eval-DFO-EGU-201905.ipynb)  
+    
+    **DFO Nutrient Comparison HC201905**
+
+* ## [eval-DFO-EGU-202007.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/eval-DFO-EGU-202007.ipynb)  
+    
+    **DFO Nutrient Comparison 202007F**
+
 * ## [makeArianeFile.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/makeArianeFile.ipynb)  
+    
+* ## [matchArchive.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/matchArchive.ipynb)  
     
 * ## [plotArianeResults-OceanPredictFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/plotArianeResults-OceanPredictFig.ipynb)  
     
