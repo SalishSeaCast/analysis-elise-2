@@ -135,6 +135,7 @@ def main():
         # In case files are re-extracted from the zip obtained from DFO, check 
         # file EO UBC November 16, 2018 (2015 data)/2015-29-0002.ctd date
         # and correct if needed. Should be August 2, 2015, not February 8, 2015. 
+        fnameErr='req20181116/EO UBC November 16, 2018 (2015 data)/2015-29-0002.ctd'
         if session0.query(StationTBL0).filter(and_(StationTBL0.sourceFile==fnameErr,StationTBL0.StartMonth==2)).count():
             session0.query(StationTBL0).filter(StationTBL0.sourceFile==fnameErr).update({"StartMonth":8,"StartDay":2})
             session0.commit()
