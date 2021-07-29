@@ -11,6 +11,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [PugetSoundZoopMar3.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/PugetSoundZoopMar3.ipynb)  
     
+* ## [SaanichZoopGrowthRates-0to100m.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SaanichZoopGrowthRates-0to100m.ipynb)  
+    
+* ## [SaanichZoopGrowthRates-0to100mEO1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SaanichZoopGrowthRates-0to100mEO1.ipynb)  
+    
 * ## [SoGZoopvsModel_NewBiomass.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SoGZoopvsModel_NewBiomass.ipynb)  
     
 * ## [SoGZoopvsModel_NewBiomass18Mar21-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/forKaryn/SoGZoopvsModel_NewBiomass18Mar21-Copy1.ipynb)  

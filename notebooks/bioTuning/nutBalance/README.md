@@ -63,6 +63,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [extractStationsNSi.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/extractStationsNSi.ipynb)  
     
+* ## [tvdTestInstability_SSCVals-01apr15-h24.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/tvdTestInstability_SSCVals-01apr15-h24.ipynb)  
+    
+* ## [tvdTestInstability_SSCVals-01apr15.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/tvdTestInstability_SSCVals-01apr15.ipynb)  
+    
 * ## [tvdTestInstability_SSCVals.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/tvdTestInstability_SSCVals.ipynb)  
     
 * ## [tvdTestInstability_TestVals-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/tvdTestInstability_TestVals-Copy1.ipynb)  

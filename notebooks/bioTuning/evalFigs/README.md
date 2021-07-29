@@ -11,6 +11,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Episodic nitrate supply to the surface waters of the northwestern Strait of Georgia; evident as a region of elevated mean (March-November) and standard deviation (April-September) of surface nitrate stretching from Discovery Passage to Baynes Sound in a monthly climatology based on simulations from fall 2014 to present.
 
+* ## [eval-DFO-EGU-201812-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/eval-DFO-EGU-201812-Copy1.ipynb)  
+    
+    **DFO Nutrient Comparison Si:N ratios -- 201812, 201905, 202007F**
+
 * ## [eval-DFO-EGU-201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/evalFigs/eval-DFO-EGU-201812.ipynb)  
     
     **DFO Nutrient Comparison HC201812**

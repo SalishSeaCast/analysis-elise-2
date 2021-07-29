@@ -9,11 +9,21 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [loadDFOFluor.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/loadDFOFluor.ipynb)  
     
+* ## [mesozooplankton-paperFig-201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/mesozooplankton-paperFig-201905.ipynb)  
+    
 * ## [vET-DFO-bottle-HC1905-forTereza.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/vET-DFO-bottle-HC1905-forTereza.ipynb)  
     
     **DFO Nutrient Comparison**
 
 * ## [vET-DFO-paperFig-HC1905-byCluster.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/vET-DFO-paperFig-HC1905-byCluster.ipynb)  
+    
+    **DFO Nutrient Comparison**
+
+* ## [vET-DFOCTD-TS-paperFig-HC1905-byCluster-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/vET-DFOCTD-TS-paperFig-HC1905-byCluster-Copy1.ipynb)  
+    
+    **DFO Nutrient Comparison**
+
+* ## [vET-DFOCTD-TS-paperFig-HC1905-byCluster.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/TJCluster/vET-DFOCTD-TS-paperFig-HC1905-byCluster.ipynb)  
     
     **DFO Nutrient Comparison**
 

@@ -27,6 +27,10 @@ Descriptions under the links below are from the first cell of the notebooks
         - Central Node
         - JDF
 
+* ## [checkInst-apr3d-Fix0.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/checkInst-apr3d-Fix0.ipynb)  
+    
+* ## [checkInst-apr3d.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/checkInst-apr3d.ipynb)  
+    
 * ## [eval-DFO-2021testRuns-202007D-again-2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/eval-DFO-2021testRuns-202007D-again-2015.ipynb)  
     
 * ## [eval-DFO-2021testRuns-202007D-again-2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/tvdTuning/eval-DFO-2021testRuns-202007D-again-2016.ipynb)  

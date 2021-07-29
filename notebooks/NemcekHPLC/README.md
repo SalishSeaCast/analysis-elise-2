@@ -3,6 +3,8 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* ## [ClusterHPLCEval-201905-BIO-NewALLO.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/ClusterHPLCEval-201905-BIO-NewALLO.ipynb)  
+    
 * ## [ClusterHPLCEval-201905-BIO.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/ClusterHPLCEval-201905-BIO.ipynb)  
     
 * ## [ClusterHPLCEval-201905-BIOMASS.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/ClusterHPLCEval-201905-BIOMASS.ipynb)  
@@ -75,6 +77,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [compHPLCModelFirstLook-Regress-201905_NewALLO.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-201905_NewALLO.ipynb)  
     
+    **Comparison of 201905 Model Phytoplankton to HPLC Phytoplankton Abundances from Nina Nemcek**
+
 * ## [compHPLCModelFirstLook-Regress-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/compHPLCModelFirstLook-Regress-Base.ipynb)  
     
 * ## [figEGU2021.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/figEGU2021.ipynb)  
