@@ -45,6 +45,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [checkSiNBalance_HC201812.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_HC201812.ipynb)  
     
+* ## [checkSiNBalance_HC201905.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_HC201905.ipynb)  
+    
 * ## [checkSiNBalance_newhindcast-spinup.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_newhindcast-spinup.ipynb)  
     
 * ## [checkSiNBalance_newhindcast.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/nutBalance/checkSiNBalance_newhindcast.ipynb)  

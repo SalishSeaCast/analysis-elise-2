@@ -11,6 +11,12 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [ClusterHPLCEval-Base.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/ClusterHPLCEval-Base.ipynb)  
     
+* ## [HPLCModel-Regress-NewALLO-201812-2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/HPLCModel-Regress-NewALLO-201812-2015.ipynb)  
+    
+* ## [HPLCModel-Regress-NewALLO-201905-2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/HPLCModel-Regress-NewALLO-201905-2015.ipynb)  
+    
+* ## [HPLCModel-Regress-NewALLO-202007Ga-2015.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/HPLCModel-Regress-NewALLO-202007Ga-2015.ipynb)  
+    
 * ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/Untitled.ipynb)  
     
 * ## [Untitled1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/NemcekHPLC/Untitled1.ipynb)  
