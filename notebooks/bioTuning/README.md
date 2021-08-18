@@ -326,6 +326,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ## [Untitled.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/Untitled.ipynb)  
     
+* ## [carbonComp.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/carbonComp.ipynb)  
+    
 * ## [checkDFOdbExtent.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/checkDFOdbExtent.ipynb)  
     
 * ## [checkMortalitySourceRates-hindcast.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/checkMortalitySourceRates-hindcast.ipynb)  
@@ -404,6 +406,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **DFO Nutrient Comparison**
 
+* ## [plotOxy.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/plotOxy.ipynb)  
+    
 * ## [testClosestPoint.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/testClosestPoint.ipynb)  
     
 * ## [useEvalTools.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/useEvalTools.ipynb)  
