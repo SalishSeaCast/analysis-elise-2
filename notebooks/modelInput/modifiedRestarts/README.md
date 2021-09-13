@@ -5,6 +5,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ## [createICSinkTest.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/modifiedRestarts/createICSinkTest.ipynb)  
     
+* ## [zeroMRub.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelInput/modifiedRestarts/zeroMRub.ipynb)  
+    
 
 ##License
 

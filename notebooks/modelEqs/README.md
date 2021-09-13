@@ -7,6 +7,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [ModelEqsPena.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/ModelEqsPena.ipynb)  
     
+* ## [SalishSeaCastVarChanges.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/SalishSeaCastVarChanges.ipynb)  
+    
 * ## [calcLimitationExample.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationExample.ipynb)  
     
 * ## [calcLimitationPlumeFig.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/calcLimitationPlumeFig.ipynb)  
@@ -34,6 +36,14 @@ Descriptions under the links below are from the first cell of the notebooks
 * ## [microzo.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/microzo.ipynb)  
     
 * ## [modelEqns-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-Copy1.ipynb)  
+    
+* ## [modelEqns-LightComp-Duplicate.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-LightComp-Duplicate.ipynb)  
+    
+* ## [modelEqns-LightComp-tuneNewLight-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-LightComp-tuneNewLight-Copy1.ipynb)  
+    
+* ## [modelEqns-LightComp-tuneNewLight-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-LightComp-tuneNewLight-Copy2.ipynb)  
+    
+* ## [modelEqns-LightComp-tuneNewLight.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-LightComp-tuneNewLight.ipynb)  
     
 * ## [modelEqns-LightComp.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/modelEqs/modelEqns-LightComp.ipynb)  
     

@@ -336,6 +336,12 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ## [checkNH4.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/checkNH4.ipynb)  
     
+* ## [checkOxy-Copy1.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/checkOxy-Copy1.ipynb)  
+    
+* ## [checkOxy-Copy2.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/checkOxy-Copy2.ipynb)  
+    
+* ## [checkOxy.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/checkOxy.ipynb)  
+    
 * ## [checkPARRangeJuly.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/checkPARRangeJuly.ipynb)  
     
     **Check summertime PAR values to infer units**
