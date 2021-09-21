@@ -55,6 +55,14 @@ Descriptions under the links below are from the first cell of the notebooks
         - Central Node
         - JDF
 
+* ## [bloomTiming202007Tuning_2016-2mo.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/bloomTiming202007Tuning_2016-2mo.ipynb)  
+    
+    **inter-run comparisons of N contained in phytoplankton**
+        - S3
+        - Sentry Shoal
+        - Central Node
+        - JDF
+
 * ## [bloomTiming202007Tuning_2016.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-elise-2/blob/master/notebooks/bioTuning/bloomTiming/bloomTiming202007Tuning_2016.ipynb)  
     
     **inter-run comparisons of N contained in phytoplankton**
