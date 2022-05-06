@@ -1,0 +1,945 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AGUtmpl.tex: this template file is for articles formatted with LaTeX2e,
+% Modified December 2018
+%
+% This template includes commands and instructions
+% given in the order necessary to produce a final output that will
+% satisfy AGU requirements.
+%
+% FOR FIGURES, DO NOT USE \psfrag
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% IMPORTANT NOTE:
+%
+% SUPPORTING INFORMATION DOCUMENTATION IS NOT COPYEDITED BEFORE PUBLICATION.
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Step 1: Set the \documentclass
+%
+%
+% PLEASE USE THE DRAFT OPTION TO SUBMIT YOUR PAPERS.
+% The draft option produces double spaced output.
+%
+% Choose the journal abbreviation for the journal you are
+% submitting to:
+
+% jgrga JOURNAL OF GEOPHYSICAL RESEARCH (use for all of them)
+% gbc   GLOBAL BIOCHEMICAL CYCLES
+% grl   GEOPHYSICAL RESEARCH LETTERS
+% pal   PALEOCEANOGRAPHY
+% ras   RADIO SCIENCE
+% rog   REVIEWS OF GEOPHYSICS
+% tec   TECTONICS
+% wrr   WATER RESOURCES RESEARCH
+% gc    GEOCHEMISTRY, GEOPHYSICS, GEOSYSTEMS
+% sw    SPACE WEATHER
+% ms    JAMES
+% ef    EARTH'S FUTURE
+%
+%
+%
+% (If you are submitting to a journal other than jgrga,
+% substitute the initials of the journal for "jgrga" below.)
+
+\documentclass[draft,jgrga]{agutexSI2019}
+% added by Elise:
+\usepackage{lineno}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{xr}
+\externaldocument{main}
+%\renewcommand{\thepage}{S\arabic{page}}
+\renewcommand{\thesection}{Text S\arabic{section}}
+%\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\theequation}{S\arabic{equation}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  SUPPORTING INFORMATION TEMPLATE
+%
+%% ------------------------------------------------------------------------ %%
+%
+%
+%Please use this template when formatting and submitting your Supporting Information.
+
+%This template serves as both a “table of contents” for the supporting information for your article and as a summary of files.
+%
+%
+%OVERVIEW
+%
+%Please note that all supporting information will be peer reviewed with your manuscript. It will not be copyedited if the paper is accepted.
+%In general, the purpose of the supporting information is to enable authors to provide and archive auxiliary information such as data tables, method information, figures, video, or computer software, in digital formats so that other scientists can use it.
+%The key criteria are that the data:
+% 1. supplement the main scientific conclusions of the paper but are not essential to the conclusions (with the exception of
+%    including %data so the experiment can be reproducible);
+% 2. are likely to be usable or used by other scientists working in the field;
+% 3. are described with sufficient precision that other scientists can understand them, and
+% 4. are not exe files.
+%
+%USING THIS TEMPLATE
+%
+%***All references should be included in the reference list of the main paper so that they can be indexed, linked, and counted as citations.  The reference section does not count toward length limits.
+%
+%All Supporting text and figures should be included in this document. Insert supporting information content into each appropriate section of the template. To add additional captions, simply copy and paste each sample as needed.
+
+%Tables may be included, but can also be uploaded separately, especially if they are larger than 1 page, or if necessary for retaining table formatting. Data sets, large tables, movie files, and audio files should be uploaded separately. Include their captions in this document and list the file name with the caption. You will be prompted to upload these files on the Upload Files tab during the submission process, using file type “Supporting Information (SI)”
+
+%IMPORTANT NOTE ON FIGURES AND TABLES
+% Placeholders for figures and tables appear after the \end{article} command, after references.
+% DO NOT USE \psfrag or \subfigure commands.
+%
+ \usepackage{graphicx}
+%
+%  Uncomment the following command to allow illustrations to print
+%   when using Draft:
+ \setkeys{Gin}{draft=false}
+%
+% You may need to use one of these options for graphicx depending on the driver program you are using. 
+%
+% [xdvi], [dvipdf], [dvipsone], [dviwindo], [emtex], [dviwin],
+% [pctexps],  [pctexwin],  [pctexhp],  [pctex32], [truetex], [tcidvi],
+% [oztex], [textures]
+%
+%
+%% ------------------------------------------------------------------------ %%
+%
+%  ENTER PREAMBLE
+%
+%% ------------------------------------------------------------------------ %%
+
+% Author names in capital letters:
+%\authorrunninghead{BALES ET AL.}
+
+% Shorter version of title entered in capital letters:
+%\titlerunninghead{SHORT TITLE}
+
+%Corresponding author mailing address and e-mail address:
+%\authoraddr{Corresponding author: A. B. Smith,
+%Department of Hydrology and Water Resources, University of
+%Arizona, Harshbarger Building 11, Tucson, AZ 85721, USA.
+%(a.b.smith@hwr.arizona.edu)}
+\linenumbers
+\begin{document}
+
+%% ------------------------------------------------------------------------ %%
+%
+%  TITLE
+%
+%% ------------------------------------------------------------------------ %%
+
+%\includegraphics{agu_pubart-white_reduced.eps}
+
+
+\title{Supporting Information for ``Nutrient Supply by a Tidal Jet in the Salish Sea Based on a Highly Resolved Biogeochemical Model"}
+%
+% e.g., \title{Supporting Information for "Terrestrial ring current:
+% Origin, formation, and decay $\alpha\beta\Gamma\Delta$"}
+%
+%DOI: 10.1002/%insert paper number here%
+
+%% ------------------------------------------------------------------------ %%
+%
+%  AUTHORS AND AFFILIATIONS
+%
+%% ------------------------------------------------------------------------ %%
+
+
+% List authors by first name or initial followed by last name and
+% separated by commas. Use \affil{} to number affiliations, and
+% \thanks{} for author notes.
+% Additional author notes should be indicated with \thanks{} (for
+% example, for current addresses).
+
+% Example: \authors{A. B. Author\affil{1}\thanks{Current address, Antartica}, B. C. Author\affil{2,3}, and D. E.
+% Author\affil{3,4}\thanks{Also funded by Monsanto.}}
+
+\authors{Elise M. Olson\affil{1}, Susan E. Allen\affil{1}, Vy Do\affil{1}, Michael Dunphy\affil{2}, Debby Ianson\affil{2,1}}
+
+\affiliation{1}{Department of Earth, Ocean and Atmospheric Sciences,
+University of British Columbia, Vancouver, British Columbia, Canada.}
+\affiliation{2}{Institute of Ocean Sciences,
+Fisheries and Oceans Canada, Sidney, British Columbia, Canada.}
+%(repeat as many times as is necessary)
+
+
+
+
+
+%% ------------------------------------------------------------------------ %%
+%
+%  BEGIN ARTICLE
+%
+%% ------------------------------------------------------------------------ %%
+
+% The body of the article must start with a \begin{article} command
+%
+% \end{article} must follow the references section, before the figures
+%  and tables.
+
+\begin{article}
+
+%% ------------------------------------------------------------------------ %%
+%
+%  TEXT
+%
+%% ------------------------------------------------------------------------ %%
+
+
+
+\noindent\textbf{Contents of this file}
+%%%Remove or add items as needed%%%
+\begin{enumerate}
+\item Text S1 to S3
+\item Figures S1 to S8
+\item Tables S1 to S9
+%if Tables are larger than 1 page, upload as separate excel file
+\end{enumerate}
+\noindent\textbf{Additional Supporting Information (Files uploaded separately)}
+\begin{enumerate}
+\item Caption for Movies S1
+\end{enumerate}
+
+\noindent\textbf{Introduction}\\
+This supporting information includes additional detail on model methods, evaluation, and results as well as the caption for a supplementary video displaying model output.
+%Type or paste your text here. The introduction gives a brief overview of the supporting information. You should include information %about as many of the following as possible (when appropriate):
+% 1. a general overview of the kind of data files;
+% 2. information about when and how the data were collected or created;
+% 3. a general description of processing steps used;
+% 4. any known imperfections or anomalies in the data.
+
+\clearpage
+
+%Delete all unused file types below. Copy/paste for multiples of each file type as needed.
+\section{List of Updates to the Physical Model} %%% river nutrient forcing
+\label{sec:physUp}
+\begin{itemize}
+\item Corrected bathymetry aspect ratio
+\item Reworked bathymetry to favor water rather than land, based on CHS
+data, the Cascadia Data set and a new blended ABC product
+\item Stretched the grid to give more resolution in the Fraser River, including all
+four arms, and moved all input to the end (upstream of Mission)
+\item Changed the partial grid step parametrization so that it is more than half a
+grid cell for small near-surface grid cells and more than 2~m for larger grid cells
+\item Added a shallow Steveston jetty with elevated bottom friction
+\item Changed from UNESCO 1983 to TEOS-10 equation of state, and changed initial conditions and
+boundary conditions, rivers to match
+\item Changed baroclinic velocity boundary conditions from no-gradient to oblique Orlanksi radiation with a 10-grid cell
+sponge layer of 50~m$^2$s$^{-1}$
+\item Turned on inverse barometer effect
+\item Changed and lengthened geometry of western and northern boundaries to match new bathymetry
+\item Changed temperature and salinity at western boundary to LiveOcean boundary conditions
+\item Temperature and salinity at northern boundary updated to a climatology provided by Hayley Dosser
+\item Matched northern sea surface height to western (Neah Bay) and with a 9.8~cm offset
+\item Updated river locations to match new bathymetry
+\item Changed river depths so that small rivers all come in at 1~m, medium rivers at 2~m and the Fraser River at 3~m
+\item Re-tuned the tides
+\item Reduced horizontal eddy diffusivity and viscosity from 10 to 1.5~m$^2$s$^{-1}$
+\item Reduced background vertical eddy viscosity from $1\times10^{-5}$ to $1\times10^{-6}$~m$^2$s$^{-1}$
+\item Increased friction with land from 0.2 to 0.5 (0 is free slip, 2 is no slip)
+\item Corrected for the fact that we partially resolve the log layer in the bottom boundary
+\item Decreased the baroclinic/tracer time step to 40~s from 30~s
+\item Used vertical advection sub-stepping with 2~s sub-step
+\item Changed lateral diffusion from iso-neutral to horizontal so we could use a sponge layer at
+the boundaries. Note that iso-neutral has a strict slope limit that we were
+mostly hitting anyhow
+\item Now accounting for surface currents in wind stress calculation
+\item Add SMELT light attenuation based on chlorophyll
+\end{itemize}
+
+\clearpage
+\section{River Nutrient Forcing.} %%% river nutrient forcing
+\label{sec:RivNuts}
+
+River nitrate, ammonium, and dissolved silica from Environment and Climate Change Canada's (EC) online database \cite{dbECRivers} as well as data provided by Debby Ianson (IOS) are summarized in Figure \ref{fig:rivNuts}. 
+The Environment Canada data were quoted in grams per liter. 
+For dissolved silica, we assumed a molecular weight of 60.08 g mol$^{-1}$, corresponding to SiO$_2$, when converting to molarity, which resulted in values that clustered similarly to the Ianson data.
+Subsequently, we were able to confirm that this was the correct conversion for the data type ``Silica Dissolved" (MacDonald, 2019, pers. comm.), but uncertainty remained regarding the units of data labeled ``Silicon Dissolved". These were included in the climatology used to force the model river nutrient inputs because they distributed consistently with the ``Silica Dissolved" measurements. 
+In Figure \ref{fig:rivNuts}, we have included only EC data of the type ``Silica Dissolved". 
+We re-computed the climatology and constant values based on this slightly reduced dataset after the model run described in this paper had been conducted and found that the change in values in the Fraser River climatology was everywhere less than 5\%, and the constant value for other rivers changed by approximately 7\%. 
+The original climatology used in the model run is shown in Figure \ref{fig:rivNuts}.
+Similarly, in the nitrate plots in Figure \ref{fig:rivNuts}, we show only EC data of the type ``Nitrogen Dissolved Nitrate", 
+whereas the original calculations also included nitrate+nitrite data. 
+Re-calculating the climatology with the reduced data set resulted in changes of less than 10\%. 
+The original climatology used in the model run is shown. 
+
+The EC data provide valuable temporal resolution of seasonal and interannual variability of nutrient concentrations in several rivers, 
+with multi-year data sets at approximately two-week sampling resolution (with many gaps) for the 
+Fraser, Quinsam, Cowichan, Tsolum, Englishman, Sumas, Alouette (nitrogen only), and Cheakamus (nitrogen only) Rivers between 1990 and the present. 
+The data provided by Debby Ianson include samples from more rivers, but provide sparser temporal resolution. 
+All samples were obtained in 2017 and 2018 with only seasonal resolution and were not filtered. 
+The Ianson dataset includes samples from the Cowichan, Puntledge, Goldstream (near Victoria), Nanaimo, Englishman, Big Qualicum, 
+Fraser, Campbell, Oyster, Trent, Tsable, and Squamish Rivers as well as Rosewall Creek and several creeks in Okeover Inlet. 
+Ianson and EC data distribute similarly at most times of year. 
+We therefore combined the two datasets for the purposes of calculating river nutrient forcing. 
+
+The daily climatologies of dissolved silica and nitrate concentrations for the largest river in the domain, the Fraser, 
+were obtained by smoothing EC observations at the Hope monitoring site temporally (by year day) with a Gaussian kernel with a scale of $\sigma$=25.5 days. 
+An average of available ammonia levels from Hope and Gravesend (downstream) was used to estimate Fraser River ammonia. All Fraser River nutrient input in the model occurs near Mission, where the river enters the domain. 
+
+Data from all rivers except the Fraser and Sumas were pooled and averaged to determine constant dissolved silica, nitrate, and ammonia concentrations 
+applied to model rivers other than the Fraser. 
+The Sumas River was excluded from these calculations due to its unusually high agricultural nutrient load. 
+The Sumas River enters the Fraser River between the Hope and Gravesend EC sampling sites, 
+but with a mean of only around 3.4~m$^3$s$^{-1}$ based on available EC data, its contribution is negligible compared to the Fraser River discharge ($\approx2700$~m$^3$s$^{-1}$).
+
+\clearpage
+\section{SMELT Biological Model Equations}
+\label{sec:ModEq}
+
+The biological model is expressed in terms of the reaction-advection-diffusion equation (\ref{eq:RAD}), below.
+The model is implemented such that the physical processes of advection and diffusion are handled by NEMO's TOP module, 
+while the remaining processes, lumped together as the ``reaction terms", $\mathcal{R}$, are carried out in a biological module we have named SMELT. 
+For simplicity and speed of execution, the sinking of biological classes is handled within the biological component rather than being included as an adjustment to the vertical advection calculated by the TOP module.
+
+\begin{align}
+ \frac{D\mathbf{x}}{Dt}= \nabla \left(k_d \nabla \mathbf{x} \right) + \mathcal{R}(\mathbf{x},\Theta,I_0)
+\label{eq:RAD}
+\end{align}
+
+Here, $\mathbf{x}$ is a vector composed of the concentrations of the classes simulated by the biological model: diatoms, small flagellates, \textit{M. rubrum}, microzooplankton, nitrate, ammonium, dissolved silica, particulate organic nitrogen, and dissolved organic nitrogen. 
+Concentrations are in units of $\upmu$M N, except for dissolved silica and biogenic silica, which have units of $\upmu$M Si. 
+In the equations that follow, we denote individual biological model components by the subscripts defined in Table \ref{tbl:symbols}. 
+The left-hand-side of Equation \ref{eq:RAD} is a Lagrangian derivative, encompassing the advective terms. 
+$k_d$ is diffusivity. 
+Conservative Temperature, $\Theta$, and surface irradiance, $I_0$, 
+are provided through coupling to the physical model. 
+In the following sections, we present the reaction terms $\mathcal{R}_i$ that govern the evolution of the concentrations of each of the model classes, $x_i$ for each of three class types: living, nutrient, and detrital classes (Table \ref{tbl:symbols}).
+
+\begin{table}[htp]
+  \caption{Abbreviations for model classes. 
+            Although it is not a freely evolving model component, 
+            but rather an externally imposed seasonally varying grazer, 
+            mesozooplankton is included.} 
+  \label{tbl:symbols}
+  \begin{spacing}{0.4} \small
+   \centering
+   \begin{tabular}{ll}\toprule
+    Symbol & Class \\ \midrule
+      DIAT & diatoms \\
+      FLAG & small flagellates \\
+      MRUB & \textit{M. rubrum} \\
+      MICZ & microzooplankton \\
+      NO   & nitrate \\
+      NH   & ammonium \\
+      Si   & dissolved silica \\
+      DON  & dissolved organic nitrogen \\
+      PON  & particulate organic nitrogen \\
+      bSi  & biogenic silica \\ 
+      MESZ & mesozooplankton \\ 
+   \midrule 
+  \end{tabular}
+  \end{spacing}
+\end{table}
+
+\subsubsection*{Living Classes: Primary Producers and Microzooplankton}
+
+Equation \ref{eq:Living} describes the reaction terms governing the evolution of the living model classes, the diatoms, flagellates, \textit{M. rubrum}, and microzooplankton.
+\begin{align}
+  \mathcal{R}_i =r_i+\sum_{j}\left(\epsilon^i G_j^i-G_i^j\right)-M_i-E_i-w_s^i \frac{\partial C_i}{\partial z} 
+\label{eq:Living}
+\end{align}  
+Phototrophic growth rate, $r_i$ (Equation \ref{eq:r}), is zero for microzooplankton. 
+Growth (or loss if negative) of group $i$ due to grazing is the sum over all living groups $j$ of grazing by $i$ on $j$ times grazing efficiency $\epsilon ^i$ minus any grazing by $j$ on $i$. Grazing rates are defined by Equation \ref{eq:G}, except for grazing by diatoms or flagellates which is zero as they are photoautotrophs.
+$M_i$ reflects non-grazing mortality (Equation \ref{eq:M}), and $E_i$ represents egestion/excretion (Equation \ref{eq:E}), which in this model is nonzero for microzooplankton. Its inclusion as a process separate from mortality allows its products to be differently partitioned among the various detrital pools. 
+$w_s^i$ is the sinking rate for class $i$ (positive downward and nonzero only for diatoms), $C_i$ is the concentration of class $i$, and $z$ is depth (increasing downward).
+
+\subsubsection*{Nutrients} % NH4, NO3, and dSi
+The reaction terms governing nitrate, ammonium, and dissolved silica are given by Equation \ref{eq:Nuts}.
+\begin{align}
+  \mathcal{R}_i =-\sum_{j}U_i^j+\sum_{k}R_k^i-\sum_{k}R_i^k+P_i
+\label{eq:Nuts}
+\end{align}  
+$U_i^j$ represents uptake of nutrient $i$ by phototrophic class $j$ (Equations \ref{eq:U_NH}--\ref{eq:U_NO}), where the phototrophic classes are diatoms, flagellates, and \textit{M. rubrum}. $R_m^n$ represents remineralization from nutrient or detrital pool $m$ to nutrient pool $n$.
+Only $R_{NH}^{NO}$, $R_{DON}^{NH}$, $R_{PON}^{NH}$, and $R_{bSi}^{Si}$ are nonzero (Equations \ref{eq:R_NHNO}--\ref{eq:R_bSiSi}). $P_i$ is production due to other biological processes such as sloppy feeding and mortality (Equation \ref{eq:P}), and the only nutrient class for which $P_i$ is nonzero is ammonium.
+
+\subsubsection*{Detrital Classes}
+Equation \ref{eq:Detrital} defines the reaction terms for the detrital classes, dissolved organic nitrogen, particulate organic nitrogen, and biogenic silica. 
+\begin{align}
+  \mathcal{R}_i =P_i-\sum_jG_i^j-\sum_{k}R_i^k+w_s^i\frac{\partial D_i}{\partial z}
+\label{eq:Detrital}
+\end{align}
+All terms have already been defined. 
+Of the detrital classes, particulate organic nitrogen and biogenic silica sink; dissolved organic nitrogen does not.
+
+\subsubsection*{Mesozooplankton}
+As in \citeA{MooreMaley2016}, the seasonal cycle of mesozooplankton is implemented as a sum of Gaussian functions centered at three times of year,
+\begin{align}
+\label{eq:MZbar}
+  \bar{Z} = Z_{w} + \sum_{i=1}^3 Z_{i} & \left( \exp[-(t-t_{0i})^2/\sigma _i ^2]  +\exp[-(t+365.25-t_{0i})^2/\sigma _i^2]  \right. \nonumber \\ 
+  	        				&  + \left. \exp[-(t-365.25-t_{0i})^2/\sigma _i^2]  \right)
+\end{align}
+where $Z_w$ is a background winter concentration, and $t$ is year day. 
+The $t\pm365.25$ terms are to ensure both sides of the Gaussian tail are captured for peaks centered close to the beginning or end of the year.  
+$Z_{i}$, $t_{0i}$, and $\sigma _i$ determine the magnitude, timing, 
+and width of the Gaussian peaks representing additional zooplankton growth above the background level. 
+We then set the mesozooplankton population to 
+\begin{align}
+\label{eq:MZ}
+   C_{MESZ}(x,y,z,t) = \bar{Z} \frac{F(x,y,z,t)}{\bar{F}_{40}(t)},
+\end{align}
+where $F$ is the prey abundance at a given location and time, 
+equal to the sum of the diatom, flagellate, \textit{M. rubrum}, PON, and microzooplankton classes, 
+and $\bar{F}_{40}$ is the average prey over the upper 40 m of the model domain (the depth of the original 1-d model). 
+Then, the maximum 40-m average grazing rate is $G_{ref}^{MESZ}=\upsilon_{max}^{MESZ}\bar{Z}$, 
+where $\upsilon_{max}^{MESZ}$ is the maximum specific ingestion rate for mesozooplankton (see Equation \ref{eq:G} and Table \ref{tbl:paramsGrazing}).
+
+%%%%%%%%%% Growth %%%%%%%%%%%%%%
+\subsection*{Phototrophic Growth}
+The rate of phototrophic growth, $r_i$, for diatoms, flagellates, and \textit{M. rubrum}, is determined by the equations below, 
+where $\Theta$ is Conservative Temperature in degrees Celsius, 
+$I$ is PAR in units of $W m^{-2}$,
+$\mathrm{[NH_4]}$ is ammonium concentration in $\upmu$M N, 
+$\mathrm{[NO_3]}$ is nitrate concentration in $\upmu$M N, and 
+[dSi] is dissolved silica concentration in $\upmu$M Si.
+\begin{align}
+\label{eq:r}
+  r_i &=\begin{cases}
+  		\mu_iC_i, & i \in (DIAT, FLAG, MRUB) \\
+		0, & i=MICZ 
+  	 \end{cases}\\
+  \mu_i &=\mu^i_{max}f(\Theta)\hat{L}_i(I,\mathrm{[NH_4^+]},\mathrm{[NO_3^-]},\mathrm{[dSi]}) \\
+\end{align}
+where $f(\Theta)$ and $\hat{L}_i$ are defined as follows:
+\begin{equation}
+\label{eq:Tdep}
+  f(\Theta) = \exp\left[0.07(\Theta-20)\right]\cdot
+       \begin{cases}
+         1, 				         & \Theta \leq \Theta_{max}-\Theta_{range} \\
+    	\frac{\Theta_{max}-\Theta}{\Theta_{range}},      & \Theta_{max}-\Theta_{range}<\Theta<\Theta_{max}\\ 
+    	0,      			                   & \Theta \geq \Theta_{max}\\
+        \end{cases} 
+\end{equation}
+
+\begin{align}
+   \hat{L}_i&=\min(L_I^i,L_{Si}^i,L_N^i) \\
+   L_I^i&=1.06\exp\left(-\frac{I}{30I_{\text{opt}}^i}\right)\left[1 - \exp\left(-\frac{I}{0.33I_{\text{opt}}^i}\right)\right] \\
+   L_{Si}^i &=\frac{[\text{dSi}]}{k_{Si}^i + [\text{dSi}]} \\
+   L_N^i &=L_O^i+L_H^i \\
+   L_O^i &=\frac{\kappa_i[\text{NO}_{3}^{-}]}{K_N^i + \kappa^i[\text{NO}_{3}^{-}] + [\text{NH}_{4}^{+}]} \\
+   L_H^i &=\frac{[\text{NH}_{4}^{+}]}{K_N^i + \kappa^i[\text{NO}_{3}^{-}] + [\text{NH}_{4}^{+}]} 
+\end{align} 
+Phototrophic growth parameters are listed in Table \ref{tbl:paramsPhoto}.
+
+\subsection*{Nutrient Uptake}
+If $\hat{\mu_i}(\Theta)=\mu_{max}^if(\Theta)$, the uptake of nitrogen by phototroph $i$ is given by:
+\begin{align}
+U_{NH}^i & =
+  \begin{cases}
+     \hat{\mu_i}(\Theta) \hat{L_i}C_i, & \hat{L}_i\leq L_H \text{ (NH$_{4}^{+}$ replete)}\\
+     \hat{\mu_i}(\Theta) L_HC_i, & \hat{L}_i> L_H \text{ (NH$_{4}^{+}$ deficient)}
+  \end{cases}  \label{eq:U_NH} \\
+U_{NO}^i & =  %%{\text{NO}_{3}^{+}}^i 
+  \begin{cases}
+     0, & L_H\geq \hat{L}_i \text{ (Si or I limited, NH$_{4}^{+}$ replete)}\\
+     \hat{\mu_i}(\Theta) (\hat{L}_i-L_H)C_i, & L_H<\hat{L}_i<L_N \text{ (Si or I limited, NH$_{4}^{+}$ deficient)}\\
+     \hat{\mu_i}(\Theta) L_OC_i, & L_N\leq \min(L_I,L_{Si}) \text{ (N limited)}\\
+  \end{cases} \label{eq:U_NO}
+\end{align}
+The rate of uptake of dissolved silica by biological class $i$ is simply:
+\begin{align}
+\label{eq:U_Si}
+  U_{\mathrm{Si}}^i = a_{\mathrm{Si:N}}^i r_i
+\end{align}
+where $a_{Si:N}^i$ is the ratio of silicon to nitrogen in biological class $i$ (Table \ref{tbl:paramsPhoto}). $a_{Si:N}^i$ is only nonzero for diatoms. 
+
+\subsection*{Grazing}
+
+Grazing by class $i$ on class $j$, $G_j^i$, is parameterized by equation \ref{eq:G}, which includes grazing thresholds, prey preferences, and the possibility for limitation based both on total and individual prey concentrations. 
+\begin{align}
+\label{eq:G}
+   G_j^i & = \upsilon_{max}^i C_i \cdot  \max\left( \min(\Gamma_j^i,\hat{\Gamma}_j^i),0\right) \\
+    \Gamma_j^i & = \frac{\rho_j^iC_j}{\sum_j\rho_j^iC_j} \cdot \frac{C_j-\alpha_j^i}{K_j^i+C_j-\alpha_j^i} \\
+    \hat{\Gamma}_j^i & =  \frac{\sum_jC_j-\alpha^i}{K^i+\sum_jC_j-\alpha^i} 
+\end{align}
+where $\rho_j^i$ are fractions so that $\sum_j \rho_j^i = 1$. 
+Since \textit{M. rubrum} only grazes on the flagellate class, $\Gamma_j^i$ and $\hat{\Gamma}_j^i$ reduce to the same equation and therefore only $\hat{\Gamma}_j^i$ is calculated. 
+The grazers, $i$, include the parameterized mesozooplankton (Equation \ref{eq:MZ}) as well as the microzooplankton and flagellate classes. 
+Grazing parameter values are presented in Table \ref{tbl:paramsGrazing}.
+ 
+\subsection*{Other Mortality and Excretion/Egestion}
+
+\begin{align}
+  M_i & = m_i C_i h(\Theta) \label{eq:M} \\
+  E_i & = e_i C_i h(\Theta) \label{eq:E}\\
+  h(\Theta) & = \exp\left[ 0.07 (\Theta-20.0^{\circ}\textrm{C}) \right] \label{eq:h}
+\end{align}
+Mortality and Excretion/Egestion parameter values are shown in Table \ref{tbl:Mort}.
+
+\subsection*{Remineralization}
+
+\begin{align}
+R_{\textrm{NH}}^{\textrm{NO}} &= b_{\textrm{NH}}^{\textrm{NO}} h(\Theta)  \mathrm{[NH_4^+]}^2 \label{eq:R_NHNO} \\
+R_{\textrm{DON}}^{\textrm{NH}} &= b_{\textrm{DON}}^{\textrm{NH}} h(\Theta) \mathrm{[DON]}  \label{eq:R_DONNH} \\
+R_{\textrm{PON}}^{\textrm{NH}} &= b_{\textrm{PON}}^{\textrm{NH}} h(\Theta) \mathrm{[PON]} \label{eq:R_PONNH} \\
+R_{\textrm{bSi}}^{\textrm{dSi}} &= b_{\textrm{bSi}}^{\textrm{dSi}} h(\Theta) \mathrm{[bSi]} \label{eq:R_bSiSi}
+\end{align}
+Remineralization parameter values are listed in Table \ref{tbl:Remin}.
+
+\subsection*{Transfer to Detrital Pools}
+The processes that transfer material from living classes to the detrital nitrogen and ammonium pools are sloppy feeding (in terms of grazing efficiency), mortality, and excretion/egestion. 
+\begin{align}
+\label{eq:P}
+   P_i = \sum_j\sum_k\chi_{j\rightarrow k}^i(1-\epsilon^k)G_j^k + \sum_j\chi_{j\rightarrow M}^i M_j +\sum_j\chi_{j\rightarrow E}^i E_j
+\end{align}
+subject to:
+\begin{align}
+   \sum_i \chi_{j\rightarrow k}^i \le 1
+\end{align}
+where $i$ can be ammonium, DON, or PON.
+When the sum of the grazing transfer fractions is less than one, it signifies that some of the nitrogen is transferred to a ``refractory" pool and is in effect removed from the model. 
+Transfer to the ``refractory" pool, burial, and flow out of the boundaries are the mechanisms by which nitrogen can be lost from the system. 
+
+All detrital silicon is combined in a single biogenic silica pool. The amount that is transferred depends on the silicon to nitrogen ratio in the source class. Here, the only source class with nonzero Si:N ratio is the diatoms ($a_{\mathrm{Si:N}}^{DIAT}$). 
+\begin{align}
+   P_{bSi} & = a_{\mathrm{Si:N}}^j G_j^{bSi}+a_{\mathrm{Si:N}}^j M_j+a_{\mathrm{Si:N}}^j E_j \\
+              & = a_{\mathrm{Si:N}}^{DIAT} G_{DIAT}^{bSi}+a_{\mathrm{Si:N}}^{DIAT} M_{DIAT}
+\end{align}
+
+\subsection*{Sinking Rate}
+The diatom sinking rate is parameterized as a function of nutrient limitation, by equation \ref{eq:diatSink}.
+\begin{align}
+\label{eq:diatSink}
+   w_s^{DIAT} =  w_{s\mathrm{min}}^{DIAT} \min(L_N^i, L_{Si}^i)^{0.2} + w_{s\mathrm{max}}^{DIAT} (1 -  \min(L_N^i, L_{Si}^i)^{0.2})
+\end{align}
+Particulate organic nitrogen and biogenic silica sinking rates are constant, except for the bottom cell where the outward flux is adjusted according to a reflection parameter $\alpha_b$ as described in Section \ref{sec:BB}.
+Parameter values associated with sinking are listed in Table \ref{tbl:SinkBBC}.
+
+%\clearpage
+
+\section*{Tables \ref{tbl:symbols}--\ref{tbl:Detrital}. Definitions and Parameter Values}
+Abbreviations used in the model equations (above) are presented in Table \ref{tbl:symbols}. Parameter values used in the runs presented in this paper are presented in Tables \ref{tbl:paramsPhoto}--\ref{tbl:Detrital} along with the values used by \citeA{MooreMaley2016} for comparison. If a value is not defined (e.g., maximum photosynthetic growth rate for microzooplankton), it is zero. 
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Photosynthetic Growth} %{\color{red} switch e's to x's}
+  \label{tbl:paramsPhoto}
+  \begin{spacing}{0.4}
+   \include{modParams/PhotoParamsTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Grazing}
+  \label{tbl:paramsGrazing}
+  \begin{spacing}{0.3}
+   \include{modParams/GrazingParamsTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Mesozooplankton}
+  \label{tbl:Mesozo}
+  \begin{spacing}{0.4}
+   \include{modParams/MesozoTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Mortality and Excretion/Egestion}
+  \label{tbl:Mort}
+  \begin{spacing}{0.4}
+   \include{modParams/MortTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Remineralization}
+  \label{tbl:Remin}
+  \begin{spacing}{0.4}
+   \include{modParams/ReminTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \label{tbl:Light}
+  \begin{spacing}{0.4}
+  \caption{Parameter Values: Optical Model}
+   \include{modParams/LightTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Sinking and Bottom Boundary Condition}
+  \label{tbl:SinkBBC}
+  \begin{spacing}{0.4}
+   \include{modParams/SinkingBBCTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Detrital Transfer Coefficients, $\chi_{j\rightarrow k}^i$}
+  \label{tbl:Detrital}
+  \begin{spacing}{0.4}
+   \include{modParams/DetritalTransferTBL}
+  \end{spacing}
+\end{table}
+
+%\clearpage
+\section*{Figures \ref{fig:Tdep}--\ref{fig:UpwellWind}}
+Refer to accompanying captions.
+
+\begin{figure}[!ht]
+          \centering
+          \includegraphics[scale=.75]{./figsMod/Tdep}
+          \caption{Temperature dependence of phytoplankton growth (Equation \ref{eq:Tdep}) at the parameter levels associated with the original 1-d model ($\Theta_{max}$=35 $^\circ$C, $\Theta_{range}$=5~$^\circ$C), diatoms in the current model ($\Theta_{max}$=26~$^\circ$C, $\Theta_{range}$=14 $^\circ$C), and flagellates and \textit{M. rubrum} in the current model ($\Theta_{max}$=31 $^\circ$C, $\Theta_{range}$=13 $^\circ$C). }
+	\label{fig:Tdep}
+\end{figure}
+
+\begin{figure}[!ht]
+      \centering
+      \includegraphics[width=1.0\textwidth]{./figsMod/riverForcing/riverNutsCombined.eps}
+      \caption{River nutrients versus day of year. Clockwise from top left: dissolved silica, nitrate with axis scaled to include Sumas River levels, nitrate with axis scaled to show variability in other rivers, and ammonia. EC refers to data acquired from Environment and Climate Change Canada's online database. Ianson refers to data provided by or collected in collaboration with Debby Ianson and processed at the Institute of Ocean Sciences. The Ianson Fraser River sites were downstream and therefore comparable to EC's Gravesend site. Solid black lines represent forcing levels in rivers other than the Fraser, and dashed black lines represent forcing concentrations applied to the Fraser River. }
+       \label{fig:rivNuts}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+          \includegraphics[natwidth=3in,natheight=2in]{./figsMod/mesozooWithMackas}
+          \caption{Left axis: maximum 40 m mean mesozooplankton grazing rate, $G_{ref}^{MESZ}$,
+                    in the present study (black line) and in \citeA{MooreMaley2016} (dashed line). 
+                    Right axis: Seasonal distribution of Strait of Georgia total dryweight zooplankton biomass (gray dots) based on Supplementary Table ST1 in \citeA{Mackas2013}. }
+    \label{fig:mesozoo}
+\end{figure}
+
+\begin{figure}[!ht]
+      \centering
+      \includegraphics[width=1.0\textwidth]{./figsEval/SSNitrateWind.eps}
+      \caption{HRDPS Wind and surface nitrate at Sentry Shoal. Surface nitrate is from a moored sensor (buoy) and from the mean of the upper two model levels. $v_{wind}$ is the y-component of the wind vector on the ocean model grid, and is therefore roughly aligned in the along-strait direction. The filter applied to the wind is a 25-hour running mean (boxcar filter). Model 0-2 m nitrate and buoy surface nitrate correlate with filtered wind speed at a 20-hour lag with Pearson correlation coefficients of R=0.60 and R=0.62, respectively ($\textrm{p}<0.01$).}
+       \label{fig:SSWindNCorr}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1.0\textwidth]{./figsEval/EvalTS}
+  \caption{Model comparisons with observed conservative temperature ($\Theta$) and Absolute Salinity (S$_A$) from DFO, PSF, and Hakai data sets. Reduced agreement in salinity in the PSF data is unsurprising as many samples were located in near-shore environments influenced by rivers whose flow is represented in the model by climatologies (see Section \ref{sec:mainRiv}).}
+  \label{fig:evalTS}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1.0\textwidth]{./figsEval/psfEval}
+  \caption{Model comparisons with PSF Citizen Science dataset, 2015-2018. Upper figures show modeled versus observed values for each year for nitrate, dissolved silica, and total chlorophyll. Lower panels show observation times and locations. Stations with nutrients but no chlorophyll data are shown in a slightly lighter shade. }
+  \label{fig:evalPSF}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1.0\textwidth]{./figsEval/HakaiEval}
+  \caption{Model comparisons with Hakai dataset, 2015-2018. Upper figures show modeled versus observed values for each year for nitrate and dissolved silica. Lower panels show observation times and locations. }
+  \label{fig:evalHakai}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1.0\textwidth]{./figsNNut/UpwellWind.eps}
+  \caption{Left: Surface nitrate concentration during a period of wind-driven upwelling on June 13, 2015. Upper right: HRDPS wind vectors at the location marked on the surface nitrate map (left) with a purple triangle. Lower right: Surface nitrate at the locations marked by triangles on the surface nitrate map (purple and blue) and $v_{wind}$ (red).  $v_{wind}$ is the y-component of the wind vector on the ocean model grid, and is therefore roughly aligned in the along-strait direction. }
+  \label{fig:UpwellWind}
+\end{figure}
+
+\noindent\textbf{Movie S1.}
+Discovery Passage tidal jet and associated nutrient plume, April 1 -- October 1, 2015. Shear production of turbulence and turbulent kinetic energy (TKE) were only output for the period May 1 -- July 19 and are blank at other times. 
+
+
+%Repeat for any additional Supporting audio files
+
+%%% End of body of article:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Optional Notation section goes here
+%
+% Notation -- End each entry with a period.
+% \begin{notation}
+% Term & definition.\\
+% Second term & second definition.\\
+% \end{notation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\bibliography{ref}
+
+%% ------------------------------------------------------------------------ %%
+%%  REFERENCE LIST AND TEXT CITATIONS
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+%
+% \bibliography{<name of your .bib file>} do not specify file extension
+%
+% no need to specify bibliographystyle
+%
+% Note that ALL references in this supporting information file must also be referenced in the primary manuscript
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% if you get an error about newblock being undefined, uncomment this line:
+%\newcommand{\newblock}{}
+
+% \bibliography{ uncomment this line and enter the name of your bibtex file here } 
+
+
+
+
+%Reference citation instructions and examples:
+%
+% Please use ONLY \cite and \citeA for reference citations.
+% \cite for parenthetical references
+% ...as shown in recent studies (Simpson et al., 2019)
+% \citeA for in-text citations
+% ...Simpson et al (2019) have shown...
+% DO NOT use other cite commands (e.g., \citet, \citep, \citeyear, \nocite, \citealp, etc.).
+%
+%
+%...as shown by \citeA{jskilby}.
+%...as shown by \citeA{lewin76}, \citeA{carson86}, \citeA{bartoldy02}, and \citeA{rinaldi03}.
+%...has been shown \cite<e.g.,>{jskilbye}.
+%...has been shown \cite{lewin76,carson86,bartoldy02,rinaldi03}.
+%...has been shown \cite{lewin76,carson86,bartoldy02,rinaldi03}.
+%
+% apacite uses < > for prenotes, not [ ]
+% DO NOT use other cite commands (e.g., \citet, \citep, \citeyear, \nocite, \citealp, etc.).
+%
+
+%% ------------------------------------------------------------------------ %%
+%
+%  END ARTICLE
+%
+%% ------------------------------------------------------------------------ %%
+\end{article}
+\clearpage
+
+% Copy/paste for multiples of each file type as needed.
+
+% enter figures and tables below here: %%%%%%%
+%
+%
+%
+%
+% EXAMPLE FIGURES
+% ---------------
+% If you get an error about an unknown bounding box, try specifying the width and height of the figure with the natwidth and natheight options.
+% \begin{figure}
+%\setfigurenum{S1} %%You can change number for each figure if you want, not required. "S" prepended automatically.
+% \noindent\includegraphics[natwidth=800px,natheight=600px]{samplefigure.eps}
+%\caption{caption}
+%\label{epsfiguresample}
+%\end{figure}
+%
+%
+% Giving latex a width will help it to scale the figure properly. A simple trick is to use \textwidth. Try this if large figures run off the side of the page.
+% \begin{figure}
+% \noindent\includegraphics[width=\textwidth]{anothersample.png}
+%\caption{caption}
+%\label{pngfiguresample}
+%\end{figure}
+%
+%
+%\begin{figure}
+%\noindent\includegraphics[width=\textwidth]{athirdsample.pdf}
+%\caption{A pdf test figure}
+%\label{pdffiguresample}
+%\end{figure}
+%
+% PDFLatex does not seem to be able to process EPS figures. You may want to try the epstopdf package.
+%
+%
+% ---------------
+% EXAMPLE TABLE
+%
+%\begin{table}
+%\settablenum{S1} %%Change number for each table
+%\caption{Time of the Transition Between Phase 1 and Phase 2\tablenotemark{a}}
+%\centering
+%\begin{tabular}{l c}
+%\hline
+% Run  & Time (min)  \\
+%\hline
+%  $l1$  & 260   \\
+%  $l2$  & 300   \\
+%  $l3$  & 340   \\
+%  $h1$  & 270   \\
+%  $h2$  & 250   \\
+%  $h3$  & 380   \\
+%  $r1$  & 370   \\
+%  $r2$  & 390   \\
+%\hline
+%\end{tabular}
+%\tablenotetext{a}{Footnote text here.}
+%\end{table}
+% ---------------
+%
+% EXAMPLE LARGE TABLE (UPLOADED SEPARATELY)
+%\begin{table}
+%\settablenum{S1} %%Change number for each table
+%\caption{Time of the Transition Between Phase 1 and Phase 2\tablenotemark{a}}
+%\end{table}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+More Information and Advice:
+
+%% ------------------------------------------------------------------------ %%
+%
+%  SECTION HEADS
+%
+%% ------------------------------------------------------------------------ %%
+
+% Capitalize the first letter of each word (except for
+% prepositions, conjunctions, and articles that are
+% three or fewer letters).
+
+% AGU follows standard outline style; therefore, there cannot be a section 1 without
+% a section 2, or a section 2.3.1 without a section 2.3.2.
+% Please make sure your section numbers are balanced.
+% ---------------
+% Level 1 head
+%
+% Use the \section{} command to identify level 1 heads;
+% type the appropriate head wording between the curly
+% brackets, as shown below.
+%
+%An example:
+%\section{Level 1 Head: Introduction}
+%
+% ---------------
+% Level 2 head
+%
+% Use the \subsection{} command to identify level 2 heads.
+%An example:
+%\subsection{Level 2 Head}
+%
+% ---------------
+% Level 3 head
+%
+% Use the \subsubsection{} command to identify level 3 heads
+%An example:
+%\subsubsection{Level 3 Head}
+%
+%---------------
+% Level 4 head
+%
+% Use the \subsubsubsection{} command to identify level 3 heads
+% An example:
+%\subsubsubsection{Level 4 Head} An example.
+%
+%% ------------------------------------------------------------------------ %%
+%
+%  IN-TEXT LISTS
+%
+%% ------------------------------------------------------------------------ %%
+%
+% Do not use bulleted lists; enumerated lists are okay.
+% \begin{enumerate}
+% \item
+% \item
+% \item
+% \end{enumerate}
+%
+%% ------------------------------------------------------------------------ %%
+%
+%  EQUATIONS
+%
+%% ------------------------------------------------------------------------ %%
+
+% Single-line equations are centered.
+% Equation arrays will appear left-aligned.
+
+Math coded inside display math mode \[ ...\]
+ will not be numbered, e.g.,:
+ \[ x^2=y^2 + z^2\]
+
+ Math coded inside \begin{equation} and \end{equation} will
+ be automatically numbered, e.g.,:
+ \begin{equation}
+ x^2=y^2 + z^2
+ \end{equation}
+
+% IF YOU HAVE MULTI-LINE EQUATIONS, PLEASE
+% BREAK THE EQUATIONS INTO TWO OR MORE LINES
+% OF SINGLE COLUMN WIDTH (20 pc, 8.3 cm)
+% using double backslashes (\\).
+
+% To create multiline equations, use the
+% \begin{eqnarray} and \end{eqnarray} environment
+% as demonstrated below.
+\begin{eqnarray}
+  x_{1} & = & (x - x_{0}) \cos \Theta \nonumber \\
+        && + (y - y_{0}) \sin \Theta  \nonumber \\
+  y_{1} & = & -(x - x_{0}) \sin \Theta \nonumber \\
+        && + (y - y_{0}) \cos \Theta.
+\end{eqnarray}
+
+%If you don't want an equation number, use the star form:
+%\begin{eqnarray*}...\end{eqnarray*}
+
+% Break each line at a sign of operation
+% (+, -, etc.) if possible, with the sign of operation
+% on the new line.
+
+% Indent second and subsequent lines to align with
+% the first character following the equal sign on the
+% first line.
+
+% Use an \hspace{} command to insert horizontal space
+% into your equation if necessary. Place an appropriate
+% unit of measure between the curly braces, e.g.
+% \hspace{1in}; you may have to experiment to achieve
+% the correct amount of space.
+
+
+%% ------------------------------------------------------------------------ %%
+%
+%  EQUATION NUMBERING: COUNTER
+%
+%% ------------------------------------------------------------------------ %%
+
+% You may change equation numbering by resetting
+% the equation counter or by explicitly numbering
+% an equation.
+
+% To explicitly number an equation, type \eqnum{}
+% (with the desired number between the brackets)
+% after the \begin{equation} or \begin{eqnarray}
+% command.  The \eqnum{} command will affect only
+% the equation it appears with; LaTeX will number
+% any equations appearing later in the manuscript
+% according to the equation counter.
+%
+
+% If you have a multiline equation that needs only
+% one equation number, use a \nonumber command in
+% front of the double backslashes (\\) as shown in
+% the multiline equation above.
+
+%% ------------------------------------------------------------------------ %%
+%
+%  SIDEWAYS FIGURE AND TABLE EXAMPLES
+%
+%% ------------------------------------------------------------------------ %%
+%
+% For tables and figures, add \usepackage{rotating} to the paper and add the rotating.sty file to the folder.
+% AGU prefers the use of {sidewaystable} over {landscapetable} as it causes fewer problems.
+%
+% \begin{sidewaysfigure}
+% \includegraphics[width=20pc]{samplefigure.eps}
+% \caption{caption here}
+% \label{label_here}
+% \end{sidewaysfigure}
+%
+%
+%
+% \begin{sidewaystable}
+% \caption{}
+% \begin{tabular}
+% Table layout here.
+% \end{tabular}
+% \end{sidewaystable}
+%
+%
+

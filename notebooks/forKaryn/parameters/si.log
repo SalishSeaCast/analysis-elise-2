@@ -1,0 +1,559 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.1)  8 APR 2022 17:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**si.tex
+(./si.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (./agutexSI2019.cls
+
+
+ AGUTeX Journal Style, American Geophysical Union 
+ This version is dated January 14, 2019
+
+
+Document Class: agutexSI2019 01/14/2019
+\c@chapter=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@figure=\count171
+\c@table=\count172
+\mathindent=\dimen134
+\abovefigcaptionskip=\skip47
+\abovetabcaptionskip=\skip48
+\abovetableskip=\skip49
+\belowtabcaptionskip=\dimen135
+\landscapebox=\box45
+\c@plate=\count173
+\savecurrtable=\box46
+\abovetabularskip=\skip50
+\belowtabularskip=\skip51
+\timing=\count174
+\hourcount=\count175
+\oldtime=\count176
+\totpages=\count177
+\belowtitleskip=\dimen136
+\abovesubtitleskip=\dimen137
+\belowsubtitleskip=\dimen138
+\aboveauthorskip=\dimen139
+\belowauthorskip=\dimen140
+\thanksnum=\count178
+\dothanks=\count179
+\thankscounter=\count180
+\titlethanksnum=\count181
+\dotitlethanks=\count182
+\titlethankscounter=\count183
+\thanksnum=\count184
+\dothanks=\count185
+\thankscounter=\count186
+\authorwidth=\dimen141
+\authorbaselineskip=\dimen142
+\aboveaffilskip=\dimen143
+\belowaffilskip=\dimen144
+\affilwidth=\dimen145
+\aboveabstractskip=\dimen146
+\belowabstractskip=\dimen147
+\belowabstractnameskip=\dimen148
+\abstractmargin=\dimen149
+\abovereceivedskip=\skip52
+\aboverevisedskip=\skip53
+\aboveacceptedskip=\skip54
+\abovepublishededskip=\skip55
+\barticle=\box47
+\thanksbox=\box48
+\titlethanksbox=\box49
+\c@appendnum=\count187
+\footnum=\count188
+\savefootnum=\count189
+\ackskip=\skip56
+\saveparskip=\dimen150
+\captionskip=\dimen151
+\PushOneColTopFig=\dimen152
+\PushOneColBotFig=\dimen153
+\PushOneColTopTab=\dimen154
+\PushOneColBotTab=\dimen155
+\PushTwoColTopFig=\dimen156
+\PushTwoColBotFig=\dimen157
+\PushTwoColTopTab=\dimen158
+\PushTwoColBotTab=\dimen159
+\intextfloatskip=\skip57
+\c@appfigure=\count190
+\c@apptable=\count191
+\c@appplate=\count192
+\checkforspace=\dimen160
+\savetopinsert=\box50
+\savebotinsert=\box51
+\secondsavetopinsert=\box52
+\secondsavebotinsert=\box53
+\firstcolbox=\box54
+\secondcolbox=\box55
+\thefirstbox=\box56
+\thesecondbox=\box57
+\firstcol=\dimen161
+\secondcol=\dimen162
+\checkheight=\dimen163
+\loopnum=\count193
+\firstcolsavefignum=\count194
+\footnotebox=\box58
+\ColUsed=\dimen164
+\FigSpace=\dimen165
+\testdblbotins=\box59
+\pageloopnum=\count195
+\endcolsavetopinsert=\box60
+\endcolsavebotinsert=\box61
+\testpagesize=\box62
+\savelastskip=\dimen166
+\partialpage=\box63
+\figandtabnumber=\count196
+\figandtabbox=\box64
+\pagefloatnumber=\count197
+\sizeoffloat=\box65
+\bogus=\count198
+\figinsert=\insert199
+\herebox=\box66
+\endfigbox=\box67
+\spanbox=\box68
+\dbltopins=\box69
+\dblbotins=\box70
+\dblbotskip=\skip58
+\dblfigandtabnumber=\count266
+\dblfigandtabbox=\box71
+\dblloopnum=\count267
+\savedblfigandtabnumber=\count268
+\dblspanherebox=\box72
+\bigpagenum=\count269
+\littlepagenum=\count270
+\wholepagenum=\count271
+\@cprtype=\count272
+\@slugcmmntwidth=\dimen167
+\affilnum=\count273
+\totalaffils=\count274
+\figcount=\count275
+\saveequation=\count276
+\c@currlett=\count277
+\notationwidth=\dimen168
+\betweennotationskip=\skip59
+\WidestEntry=\dimen169
+\premulticols=\dimen170
+\page@free=\dimen171
+\partial@page=\box73
+\multicoltolerance=\count278
+\doublecol@number=\count279
+\multicolbaselineskip=\skip60
+\c@collectmore=\count280
+\loopcount=\count281
+\fixdimen=\dimen172
+\c@unbalance=\count282
+\savedimen=\dimen173
+\savehsize=\dimen174
+\mycolumnwidth=\dimen175
+\saveparindent=\dimen176
+\saveparskip=\dimen177
+\abstractwidth=\dimen178
+\currlastnumber=\count283
+\altaffilbox=\box74
+\sectskip=\skip61
+\belowsectionskip=\skip62
+\subsectskip=\skip63
+\belowsubsectskip=\skip64
+\subsubsectskip=\skip65
+\belowsubsubsectskip=\skip66
+\c@subsubsubsection=\count284
+\captionwidth=\dimen179
+\widecaptionwidth=\dimen180
+\landscapecaptionwidth=\dimen181
+\@temptokenb=\toks14
+(/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count285
+\bibleftmargin=\skip67
+\bibindent=\skip68
+\bibparsep=\skip69
+\bibitemsep=\skip70
+\biblabelsep=\skip71
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\beforeendskip=\skip72
+
+
+
+ JGRGA style option, October 1, 2001,
+ \documentclass[jgrga]{AGUTeX}
+ ``Journal of Geophysical Research'', 
+ Published by American Geophysical Union
+
+
+\titlesize=\dimen182
+) (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count286
+\output=\toks15
+\linenoprevgraf=\count287
+\linenumbersep=\dimen183
+\linenumberwidth=\dimen184
+\c@linenumber=\count288
+\c@pagewiselinenumber=\count289
+\c@LN@truepage=\count290
+\c@internallinenumber=\count291
+\c@internallinenumbers=\count292
+\quotelinenumbersep=\dimen185
+\bframerule=\dimen186
+\bframesep=\dimen187
+\bframebox=\box75
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen188
+\lightrulewidth=\dimen189
+\cmidrulewidth=\dimen190
+\belowrulesep=\dimen191
+\belowbottomsep=\dimen192
+\aboverulesep=\dimen193
+\abovetopsep=\dimen194
+\cmidrulesep=\dimen195
+\cmidrulekern=\dimen196
+\defaultaddspace=\dimen197
+\@cmidla=\count293
+\@cmidlb=\count294
+\@aboverulesep=\dimen198
+\@belowrulesep=\dimen256
+\@thisruleclass=\count295
+\@lastruleclass=\count296
+\@thisrulewidth=\dimen257
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip73
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen258
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen259
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count297
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count298
+\leftroot@=\count299
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count300
+\DOTSCASE@=\count301
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box76
+\strutbox@=\box77
+\big@size=\dimen260
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count302
+\c@MaxMatrixCols=\count303
+\dotsspace@=\muskip17
+\c@parentequation=\count304
+\dspbrk@lvl=\count305
+\tag@help=\toks17
+\row@=\count306
+\column@=\count307
+\maxfields@=\count308
+\andhelp@=\toks18
+\eqnshift@=\dimen261
+\alignsep@=\dimen262
+\tagshift@=\dimen263
+\tagwidth@=\dimen264
+\totwidth@=\dimen265
+\lineht@=\dimen266
+\@envbody=\toks19
+\multlinegap=\skip74
+\multlinetaggap=\skip75
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 2019/07/22 v5.05 eXternal References (DPC)
+)
+
+Package xr Warning: 
+No file main.aux
+LABELS NOT IMPORTED.
+ on input line 56.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen267
+\Gin@req@width=\dimen268
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count309
+\l__pdf_internal_box=\box78
+)
+No file si.aux.
+\openout1 = `si.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+\c@maskedRefs=\count310
+(/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count311
+\scratchdimen=\dimen269
+\scratchbox=\box79
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen270
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1{/home/eolson/.texlive2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+[2
+
+] [3]
+
+LaTeX Warning: Citation `dbECRivers' undefined on input line 260.
+
+
+LaTeX Warning: Reference `fig:rivNuts' on page 4 undefined on input line 260.
+
+
+LaTeX Warning: Reference `fig:rivNuts' on page 4 undefined on input line 264.
+
+
+LaTeX Warning: Reference `fig:rivNuts' on page 4 undefined on input line 266.
+
+
+LaTeX Warning: Reference `fig:rivNuts' on page 4 undefined on input line 267.
+
+[4
+
+] [5]
+
+LaTeX Warning: Reference `eq:RAD' on page 6 undefined on input line 296.
+
+
+LaTeX Warning: Reference `tbl:symbols' on page 6 undefined on input line 308.
+
+
+LaTeX Warning: Reference `eq:RAD' on page 6 undefined on input line 309.
+
+
+LaTeX Warning: Reference `tbl:symbols' on page 6 undefined on input line 313.
+
+
+LaTeX Warning: Reference `eq:Living' on page 6 undefined on input line 343.
+
+[6
+
+]
+
+LaTeX Warning: Reference `eq:r' on page 7 undefined on input line 348.
+
+
+LaTeX Warning: Reference `eq:G' on page 7 undefined on input line 349.
+
+
+LaTeX Warning: Reference `eq:M' on page 7 undefined on input line 350.
+
+
+LaTeX Warning: Reference `eq:E' on page 7 undefined on input line 350.
+
+
+LaTeX Warning: Reference `eq:Nuts' on page 7 undefined on input line 354.
+
+
+LaTeX Warning: Reference `eq:U_NH' on page 7 undefined on input line 359.
+
+
+LaTeX Warning: Reference `eq:U_NO' on page 7 undefined on input line 359.
+
+
+LaTeX Warning: Reference `eq:R_NHNO' on page 7 undefined on input line 360.
+
+
+LaTeX Warning: Reference `eq:R_bSiSi' on page 7 undefined on input line 360.
+
+
+LaTeX Warning: Reference `eq:P' on page 7 undefined on input line 360.
+
+[7]
+
+LaTeX Warning: Reference `eq:Detrital' on page 8 undefined on input line 363.
+
+
+LaTeX Warning: Citation `MooreMaley2016' undefined on input line 372.
+
+
+LaTeX Warning: Reference `eq:G' on page 8 undefined on input line 391.
+
+
+LaTeX Warning: Reference `tbl:paramsGrazing' on page 8 undefined on input line 
+391.
+
+[8]
+
+LaTeX Warning: Reference `tbl:paramsPhoto' on page 9 undefined on input line 42
+8.
+
+[9]
+
+LaTeX Warning: Reference `tbl:paramsPhoto' on page 10 undefined on input line 4
+50.
+
+
+LaTeX Warning: Reference `eq:G' on page 10 undefined on input line 454.
+
+
+LaTeX Warning: Reference `eq:MZ' on page 10 undefined on input line 463.
+
+
+LaTeX Warning: Reference `tbl:paramsGrazing' on page 10 undefined on input line
+ 464.
+
+[10]
+
+LaTeX Warning: Reference `tbl:Mort' on page 11 undefined on input line 473.
+
+
+LaTeX Warning: Reference `tbl:Remin' on page 11 undefined on input line 483.
+
+[11]
+
+LaTeX Warning: Reference `eq:diatSink' on page 12 undefined on input line 506.
+
+
+LaTeX Warning: Reference `sec:BB' on page 12 undefined on input line 511.
+
+
+LaTeX Warning: Reference `tbl:SinkBBC' on page 12 undefined on input line 512.
+
+[12]
+
+LaTeX Warning: Reference `tbl:symbols' on page 13 undefined on input line 516.
+
+
+LaTeX Warning: Reference `tbl:Detrital' on page 13 undefined on input line 516.
+
+
+
+LaTeX Warning: Reference `tbl:symbols' on page 13 undefined on input line 517.
+
+
+LaTeX Warning: Reference `tbl:paramsPhoto' on page 13 undefined on input line 5
+17.
+
+
+LaTeX Warning: Reference `tbl:Detrital' on page 13 undefined on input line 517.
+
+
+! I can't write on file `modParams/PhotoParamsTBL.aux'.
+\@include ...\immediate \openout \@partaux #1.aux 
+                                                  \immediate \write \@partau...
+l.523    \include{modParams/PhotoParamsTBL}
+                                           
+(Press Enter to retry, or Control-D to exit; default file extension is `.tex')
+Please type another output file name: 
+! I can't write on file `modParams/PhotoParamsTBL.aux'.
+\@include ...\immediate \openout \@partaux #1.aux 
+                                                  \immediate \write \@partau...
+l.523    \include{modParams/PhotoParamsTBL}
+                                           
+(Press Enter to retry, or Control-D to exit; default file extension is `.tex')
+Please type another output file name: 
+! I can't write on file `modParams/PhotoParamsTBL.aux'.
+\@include ...\immediate \openout \@partaux #1.aux 
+                                                  \immediate \write \@partau...
+l.523    \include{modParams/PhotoParamsTBL}
+                                           
+(Press Enter to retry, or Control-D to exit; default file extension is `.tex')
+Please type another output file name: 
+! Emergency stop.
+\@include ...\immediate \openout \@partaux #1.aux 
+                                                  \immediate \write \@partau...
+l.523    \include{modParams/PhotoParamsTBL}
+                                           
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 3475 strings out of 481239
+ 45064 string characters out of 5920390
+ 304887 words of memory out of 5000000
+ 18718 multiletter control sequences out of 15000+600000
+ 547052 words of font info for 74 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,19n,25p,475b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

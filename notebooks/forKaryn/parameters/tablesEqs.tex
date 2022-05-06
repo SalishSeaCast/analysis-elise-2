@@ -1,0 +1,82 @@
+\documentclass{article}
+%\documentclass[draft,jgrga]{agutexSI2019}
+% added by Elise:
+\usepackage{lineno}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{xr}
+
+
+\begin{document}
+Parameters and Equations
+
+\section*{Tables \ref{tbl:symbols}--\ref{tbl:Detrital}. Definitions and Parameter Values}
+%Abbreviations used in the model equations (above) are presented in Table \ref{tbl:symbols}. Parameter values used in the runs presented in this paper are presented in Tables \ref{tbl:paramsPhoto}--\ref{tbl:Detrital} along with the values used by \citeA{MooreMaley2016} for comparison. If a value is not defined (e.g., maximum photosynthetic growth rate for microzooplankton), it is zero. 
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Photosynthetic Growth} %{\color{red} switch e's to x's}
+  \label{tbl:paramsPhoto}
+  \begin{spacing}{0.4}
+   \include{PhotoParamsTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Grazing}
+  \label{tbl:paramsGrazing}
+  \begin{spacing}{0.3}
+   \include{GrazingParamsTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Mesozooplankton}
+  \label{tbl:Mesozo}
+  \begin{spacing}{0.4}
+   \include{MesozoTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Mortality and Excretion/Egestion}
+  \label{tbl:Mort}
+  \begin{spacing}{0.4}
+   \include{MortTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Remineralization}
+  \label{tbl:Remin}
+  \begin{spacing}{0.4}
+   \include{ReminTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \label{tbl:Light}
+  \begin{spacing}{0.4}
+  \caption{Parameter Values: Optical Model}
+   \include{LightTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Sinking and Bottom Boundary Condition}
+  \label{tbl:SinkBBC}
+  \begin{spacing}{0.4}
+   \include{SinkingBBCTBL}
+  \end{spacing}
+\end{table}
+
+\begin{table}[!ht]
+  \caption{Parameter Values: Detrital Transfer Coefficients, $\chi_{j\rightarrow k}^i$}
+  \label{tbl:Detrital}
+  \begin{spacing}{0.4}
+   \include{DetritalTransferTBL}
+  \end{spacing}
+\end{table}
+
+\end{document}
